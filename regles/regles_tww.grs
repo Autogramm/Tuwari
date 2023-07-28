@@ -1,0 +1,565 @@
+package tuwari {
+	rule r0 {
+		pattern { X [Gloss="-ALL"]}
+		without {X [Case=All]}
+		commands {X.Case=All}
+	}
+	rule r1 {
+		pattern { X [Gloss="-CAP"]}
+		without {X [Mood=Irr]}
+		commands {X.Mood=Irr}
+	}
+	rule r2 {
+		pattern { X [Gloss="-COM"]}
+		without {X [Case=Com]}
+		commands {X.Case=Com}
+	}
+	rule r3 {
+		pattern { X [Gloss="-DIR"]}
+		without {X [Case=All]}
+		commands {X.Case=All}
+	}
+	rule r4 {
+		pattern { X [Gloss="-DIR", lemma="-ma_1"]}
+		without {X [upos=ADP, Case=All]}
+		commands {X.xpos=X.upos;
+				X.upos=ADP;
+				X.Case=All}
+	}
+	rule r5 {
+		pattern { X [Gloss="-DISTR"]}
+		without {X [Case=Dis]}
+		commands {X.Case=Dis}
+	}
+	rule r6 {
+		pattern { X [Gloss="-F.SG", upos="X"]}
+		without {X [Gender=Fem, Number=Sing]}
+		commands {X.Gender=Fem;
+				X.Number=Sing}
+	}
+	rule r7 {
+		pattern { X [Gloss="-III.SG"]}
+		without {X [upos=DET, Number=Sing, NounClass=Tww3]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.Number=Sing;
+				X.NounClass=Tww3}
+	}
+	rule r8 {
+		pattern { X [Gloss="-IMM"]}
+		without {X [Tense=Fut]}
+		commands {X.Tense=Fut}
+	}
+	rule r9 {
+		pattern { X [Gloss="-INS"]}
+		without {X [Case=Ins]}
+		commands {X.Case=Ins}
+	}
+	rule r10 {
+		pattern { X [Gloss="-IRR"]}
+		without {X [Mood=Irr]}
+		commands {X.Mood=Irr}
+	}
+	rule r11 {
+		pattern { X [Gloss="-IV.SG"]}
+		without {X [upos=DET, Number=Sing, NounClass=Tww4]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.Number=Sing;
+				X.NounClass=Tww4}
+	}
+	rule r12 {
+		pattern { X [Gloss="-IX.SG"]}
+		without {X [upos=DET, Number=Sing, NounClass=Tww9]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.Number=Sing;
+				X.NounClass=Tww9}
+	}
+	rule r13 {
+		pattern { X [Gloss="-M.SG", upos="X"]}
+		without {X [Gender=Masc, Number=Sing]}
+		commands {X.Gender=Masc;
+				X.Number=Sing}
+	}
+	rule r14 {
+		pattern { X [Gloss="-O"]}
+		without {X [Case=Acc]}
+		commands {X.Case=Acc}
+	}
+	rule r15 {
+		pattern { X [Gloss="-POSSor"]}
+		without {X [upos=ADP]}
+		commands {X.xpos=X.upos;
+				X.upos=ADP}
+	}
+	rule r16 {
+		pattern { X [Gloss="-PRF"]}
+		without {X [Aspect=Perf]}
+		commands {X.Aspect=Perf}
+	}
+	rule r17 {
+		pattern { X [Gloss="-Q"]}
+		without {X [Case=Int]}
+		commands {X.Case=Int}
+	}
+	rule r18 {
+		pattern { X [Gloss="-TIME"]}
+		without {X [Case=Tem]}
+		commands {X.Case=Tem}
+	}
+	rule r19 {
+		pattern { X [Gloss="-V.SG"]}
+		without {X [upos=DET, Number=Sing, NounClass=Tww5]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.Number=Sing;
+				X.NounClass=Tww5}
+	}
+	rule r20 {
+		pattern { X [Gloss="-VI.SG"]}
+		without {X [upos=DET, Number=Sing, NounClass=Tww6]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.Number=Sing;
+				X.NounClass=Tww6}
+	}
+	rule r21 {
+		pattern { X [Gloss="-VII.SG"]}
+		without {X [upos=DET, Number=Sing, NounClass=Tww7]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.Number=Sing;
+				X.NounClass=Tww7}
+	}
+	rule r22 {
+		pattern { X [Gloss="-VIII.SG"]}
+		without {X [upos=DET, Number=Sing, NounClass=Tww8]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.Number=Sing;
+				X.NounClass=Tww8}
+	}
+	rule r23 {
+		pattern { X [Gloss="-X.SG"]}
+		without {X [upos=DET, Number=Sing, NounClass=Tww10]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.Number=Sing;
+				X.NounClass=Tww10}
+	}
+	rule r24 {
+		pattern { X [Gloss="-XI.SG"]}
+		without {X [upos=DET, Number=Sing, NounClass=Tww11]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.Number=Sing;
+				X.NounClass=Tww11}
+	}
+	rule r25 {
+		pattern { X [Gloss="-XII.SG"]}
+		without {X [upos=DET, Number=Sing, NounClass=Tww12]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.Number=Sing;
+				X.NounClass=Tww12}
+	}
+	rule r26 {
+		pattern { X [Gloss="COMPL"]}
+		without {X [Aspect=Compl]}
+		commands {X.Aspect=Compl}
+	}
+	rule r27 {
+		pattern { X [Gloss="QUOTED_SPEECH"]}
+		without {X [Mood=Qot]}
+		commands {X.Mood=Qot}
+	}
+	rule r28 {
+		pattern { X [Gloss=re"-?LOC.*"]}
+		without {X [Case=Loc]}
+		commands {X.Case=Loc}
+	}
+	rule r29 {
+		pattern { X [Gloss=re"-DUR.?"]}
+		without {X [Aspect=Imp]}
+		commands {X.Aspect=Imp}
+	}
+	rule r30 {
+		pattern { X [Gloss=re"-MED.*"]}
+		without {X [VerbForm=Med]}
+		commands {X.VerbForm=Med}
+	}
+	rule r31 {
+		pattern { X [Gloss=re".?COP.?"]}
+		without {X [upos=AUX, VerbType=Cop]}
+		commands {X.xpos=X.upos;
+				X.upos=AUX;
+				X.VerbType=Cop}
+	}
+	rule r32 {
+		pattern { X [Gloss=re".*[^A-Z]PL.*"]}
+		without {X [Number=Plur]}
+		commands {X.Number=Plur}
+	}
+	rule r33 {
+		pattern { X [Gloss=re".*1PL.*"]}
+		without {X [Person=1, Number=Plur]}
+		commands {X.Person=1;
+				X.Number=Plur}
+	}
+	rule r34 {
+		pattern { X [Gloss=re".*1SG.*"]}
+		without {X [Person=1, Number=Sing]}
+		commands {X.Person=1;
+				X.Number=Sing}
+	}
+	rule r35 {
+		pattern { X [Gloss=re".*2PL.*"]}
+		without {X [Person=2, Number=Plur]}
+		commands {X.Person=2;
+				X.Number=Plur}
+	}
+	rule r36 {
+		pattern { X [Gloss=re".*2SG.*"]}
+		without {X [Person=2, Number=Sing]}
+		commands {X.Person=2;
+				X.Number=Sing}
+	}
+	rule r37 {
+		pattern { X [Gloss=re".*3PL.*"]}
+		without {X [Person=3, Number=Plur]}
+		commands {X.Person=3;
+				X.Number=Plur}
+	}
+	rule r38 {
+		pattern { X [Gloss=re".*3SG.*"]}
+		without {X [Person=3, Number=Sing]}
+		commands {X.Person=3;
+				X.Number=Sing}
+	}
+	rule r39 {
+		pattern { X [Gloss=re".*DEM[1-4].*"]}
+		without {X [upos="PRON"|"pers"]}
+		without {X[upos=PRON, PronType=Dem]}
+		commands {X.xpos=X.upos;
+				X.upos=PRON;
+				X.PronType=Dem}
+	}
+	rule r40 {
+		pattern { X [Gloss=re".*DU\.F"]}
+		without {X [Number=Dual, Gender=Fem]}
+		commands {X.Number=Dual;
+				X.Gender=Fem}
+	}
+	rule r41 {
+		pattern { X [Gloss=re".*DU\.M"]}
+		without {X [Number=Dual, Gender=Masc]}
+		commands {X.Number=Dual;
+				X.Gender=Masc}
+	}
+	rule r42 {
+		pattern { X [Gloss=re".*FUT.*"]}
+		without {X [Tense=Fut]}
+		commands {X.Tense=Fut}
+	}
+	rule r43 {
+		pattern { X [Gloss=re".*INDEF.*"]}
+		without {X [Definite=Ind]}
+		commands {X.Definite=Ind}
+	}
+	rule r44 {
+		pattern { X [Gloss=re".*NEG.*"]}
+		without {X [Polarity=NEG]}
+		commands {X.Polarity=NEG}
+	}
+	rule r45 {
+		pattern { X [Gloss=re".*NOT_HUM.*"]}
+		without {X [Animacy=Nhum]}
+		commands {X.Animacy=Nhum}
+	}
+	rule r46 {
+		pattern { X [Gloss=re".*POSS[^or]*"]}
+		without {X [Poss=Yes]}
+		commands {X.Poss=Yes}
+	}
+	rule r47 {
+		pattern { X [Gloss=re".*PST.*"]}
+		without {X [Tense=Past]}
+		commands {X.Tense=Past}
+	}
+	rule r48 {
+		pattern { X [Gloss=re".*SG.?F"]}
+		without {X [Number=Sing, Gender=Fem]}
+		commands {X.Number=Sing;
+				X.Gender=Fem}
+	}
+	rule r49 {
+		pattern { X [Gloss=re".*SG.?M\.?[POS]*"]}
+		without {X [Number=Sing, Gender=Masc]}
+		commands {X.Number=Sing;
+				X.Gender=Masc}
+	}
+	rule r50 {
+		pattern { X [lemma="fali"]}
+		without {X [upos=PART]}
+		commands {X.xpos=X.upos;
+				X.upos=PART}
+	}
+	rule r51 {
+		pattern { X [lemma="-mo_6"]}
+		without {X [upos=SCONJ]}
+		commands {X.xpos=X.upos;
+				X.upos=SCONJ}
+	}
+	rule r52 {
+		pattern { X [lemma="-se_2", Gloss="-F.SG"]}
+		without {X [upos="X"]}
+		without {X[upos=DET, Gender=Fem, Number=Sing, NounClass=Tww2]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.Gender=Fem;
+				X.Number=Sing;
+				X.NounClass=Tww2}
+	}
+	rule r53 {
+		pattern { X [lemma="-we_1", Gloss="-M.SG"]}
+		without {X [upos="X"]}
+		without {X[upos=DET, Gender=Masc, Number=Sing, NounClass=Tww1]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.Gender=Masc;
+				X.Number=Sing;
+				X.NounClass=Tww1}
+	}
+	rule r54 {
+		pattern { X [lemma=re"-?nami"]}
+		without {X [upos=ADV, Gloss="after"]}
+		commands {X.xpos=X.upos;
+				X.upos=ADV;
+				X.Gloss="after"}
+	}
+	rule r55 {
+		pattern { X [upos="_"]}
+		without {X [upos=X]}
+		commands {X.xpos=X.upos;
+				X.upos=X}
+	}
+	rule r56 {
+		pattern { X [upos="?"]}
+		without {X [upos=X]}
+		commands {X.xpos=X.upos;
+				X.upos=X}
+	}
+	rule r57 {
+		pattern { X [upos="adj"]}
+		without {X [upos=ADJ]}
+		commands {X.xpos=X.upos;
+				X.upos=ADJ}
+	}
+	rule r58 {
+		pattern { X [upos="adj>adv"]}
+		without {X [upos=ADP, DerPos=ADV, TokenType=DerAff]}
+		commands {X.xpos=X.upos;
+				X.upos=ADP;
+				X.DerPos=ADV;
+				X.TokenType=DerAff}
+	}
+	rule r59 {
+		pattern { X [upos="adp"]}
+		without {X [upos=ADP]}
+		commands {X.xpos=X.upos;
+				X.upos=ADP}
+	}
+	rule r60 {
+		pattern { X [upos="adv"]}
+		without {X [upos=ADV]}
+		commands {X.xpos=X.upos;
+				X.upos=ADV}
+	}
+	rule r61 {
+		pattern { X [upos="Adverb"]}
+		without {X [upos=X]}
+		commands {X.xpos=X.upos;
+				X.upos=X}
+	}
+	rule r62 {
+		pattern { X [upos="AUX", Gloss="-FIN"]}
+		without {X [VerbForm=Fin]}
+		commands {X.VerbForm=Fin}
+	}
+	rule r63 {
+		pattern { X [upos="cardnum"]}
+		without {X [upos=NUM]}
+		commands {X.xpos=X.upos;
+				X.upos=NUM}
+	}
+	rule r64 {
+		pattern { X [upos="correlconn"]}
+		without {X [upos=CCONJ]}
+		commands {X.xpos=X.upos;
+				X.upos=CCONJ}
+	}
+	rule r65 {
+		pattern { X [upos="dem"]}
+		without {X [upos=DET, PronType=Dem]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.PronType=Dem}
+	}
+	rule r66 {
+		pattern { X [upos="ideo"]}
+		without {X [upos=ADV, AdvType=Ideoph]}
+		commands {X.xpos=X.upos;
+				X.upos=ADV;
+				X.AdvType=Ideoph}
+	}
+	rule r67 {
+		pattern { X [upos="indfpro"]}
+		without {X [upos=PRON, PronType=Ind]}
+		commands {X.xpos=X.upos;
+				X.upos=PRON;
+				X.PronType=Ind}
+	}
+	rule r68 {
+		pattern { X [upos="interj"]}
+		without {X [upos=INTJ]}
+		commands {X.xpos=X.upos;
+				X.upos=INTJ}
+	}
+	rule r69 {
+		pattern { X [upos="interrog"]}
+		without {X [upos=PRON, PronType=Int]}
+		commands {X.xpos=X.upos;
+				X.upos=PRON;
+				X.PronType=Int}
+	}
+	rule r70 {
+		pattern { X [upos="light verb"]}
+		without {X [Gloss=re".?COP.?"]}
+		without {X[upos=VERB, VerbType=Light]}
+		commands {X.xpos=X.upos;
+				X.upos=VERB;
+				X.VerbType=Light}
+	}
+	rule r71 {
+		pattern { X [upos="n:(Num)", lemma="-le_1"]}
+		without {X [upos=DET]}
+		commands {X.xpos=X.upos;
+				X.upos=DET}
+	}
+	rule r72 {
+		pattern { X [upos="n:(Num)"]}
+		without {X [lemma="-le_1"]}
+		without {X[upos=DET]}
+		commands {X.xpos=X.upos;
+				X.upos=DET}
+	}
+	rule r73 {
+		pattern { X [upos="n:Tout", Gloss="-ALL"]}
+		without {X [upos=ADP]}
+		commands {X.xpos=X.upos;
+				X.upos=ADP}
+	}
+	rule r74 {
+		pattern { X [upos="n:Tout"]}
+		without {X [Gloss="-ALL"]}
+		without {X[upos=DET]}
+		commands {X.xpos=X.upos;
+				X.upos=DET}
+	}
+	rule r75 {
+		pattern { X [upos="n"]}
+		without {X [upos=NOUN]}
+		commands {X.xpos=X.upos;
+				X.upos=NOUN}
+	}
+	rule r76 {
+		pattern { X [upos="Noun"]}
+		without {X [upos=DET]}
+		commands {X.xpos=X.upos;
+				X.upos=DET}
+	}
+	rule r77 {
+		pattern { X [upos="pers"]}
+		without {X [upos=PRON, PronType=Prs]}
+		commands {X.xpos=X.upos;
+				X.upos=PRON;
+				X.PronType=Prs}
+	}
+	rule r78 {
+		pattern { X [upos="poss"]}
+		without {X [upos=DET, PronType=Prs, Poss=Yes]}
+		commands {X.xpos=X.upos;
+				X.upos=DET;
+				X.PronType=Prs;
+				X.Poss=Yes}
+	}
+	rule r79 {
+		pattern { X [upos="Possessive pronoun"]}
+		without {X [upos=ADP]}
+		commands {X.xpos=X.upos;
+				X.upos=ADP}
+	}
+	rule r80 {
+		pattern { X [upos="pro-form"]}
+		without {X [upos=PRON]}
+		commands {X.xpos=X.upos;
+				X.upos=PRON}
+	}
+	rule r81 {
+		pattern { X [upos="Pro-form"]}
+		without {X [upos=X]}
+		commands {X.xpos=X.upos;
+				X.upos=X}
+	}
+	rule r82 {
+		pattern { X [upos="v:(GenderNumber)"]}
+		without {X [Gloss=re".*DEM[1-4].*"]}
+		without {X[upos=X]}
+		commands {X.xpos=X.upos;
+				X.upos=X}
+	}
+	rule r83 {
+		pattern { X [upos="v"]}
+		without {X [lemma="-mo_6"|"fali"]}
+		without {X[upos=VERB]}
+		commands {X.xpos=X.upos;
+				X.upos=VERB}
+	}
+	rule r84 {
+		pattern { X [upos="Verb"]}
+		without {X [upos=AUX]}
+		commands {X.xpos=X.upos;
+				X.upos=AUX}
+	}
+	rule r85 {
+		pattern { X [upos="PRON", Gloss=re".*DEM[1-4].*", xpos="pers"|"n"]}
+		without {X [PronType=Prs]}
+		commands {X.PronType=Prs}
+	}
+	rule r86 {
+		pattern { X [upos="PRON", Gloss=re".*DEM[1-4].*"]}
+		without {X [xpos="pers"|"n"]}
+		without {X[PronType=Dem]}
+		commands {X.PronType=Dem}
+	}
+	rule r87 {
+		pattern { X [upos=re"n  (.*)?*"]}
+		without {X [upos=NOUN]}
+		commands {X.xpos=X.upos;
+				X.upos=NOUN}
+	}
+	rule r88 {
+		pattern { X [upos=re"PN.*"]}
+		without {X [upos=PROPN]}
+		commands {X.xpos=X.upos;
+				X.upos=PROPN}
+	}
+	rule r89 {
+		pattern { X [upos=re"v:(?.*)?"]}
+		without {X [upos="v:(GenderNumber)"]}
+		without {X[upos=AUX]}
+		commands {X.xpos=X.upos;
+				X.upos=AUX}
+	}
+}

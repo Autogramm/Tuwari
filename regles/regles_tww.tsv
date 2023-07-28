@@ -1,0 +1,91 @@
+Conditions	Résultat
+Gloss="-ALL"	Case=All
+Gloss="-CAP"	Mood=Irr
+Gloss="-COM"	Case=Com
+Gloss="-DIR"	Case=All
+Gloss="-DIR" & lemma="-ma_1"	upos=ADP & Case=All
+Gloss="-DISTR"	Case=Dis
+Gloss="-F.SG" & upos="X"	Gender=Fem & Number=Sing
+Gloss="-III.SG"	upos=DET & Number=Sing & NounClass=Tww3
+Gloss="-IMM"	Tense=Fut
+Gloss="-INS"	Case=Ins
+Gloss="-IRR"	Mood=Irr
+Gloss="-IV.SG"	upos=DET & Number=Sing & NounClass=Tww4
+Gloss="-IX.SG"	upos=DET & Number=Sing & NounClass=Tww9
+Gloss="-M.SG" & upos="X"	Gender=Masc & Number=Sing
+Gloss="-O"	Case=Acc
+Gloss="-POSSor"	upos=ADP
+Gloss="-PRF"	Aspect=Perf
+Gloss="-Q"	Case=Int
+Gloss="-TIME"	Case=Tem
+Gloss="-V.SG"	upos=DET & Number=Sing & NounClass=Tww5
+Gloss="-VI.SG"	upos=DET & Number=Sing & NounClass=Tww6
+Gloss="-VII.SG"	upos=DET & Number=Sing & NounClass=Tww7
+Gloss="-VIII.SG"	upos=DET & Number=Sing & NounClass=Tww8
+Gloss="-X.SG"	upos=DET & Number=Sing & NounClass=Tww10
+Gloss="-XI.SG"	upos=DET & Number=Sing & NounClass=Tww11
+Gloss="-XII.SG"	upos=DET & Number=Sing & NounClass=Tww12
+Gloss="COMPL"	Aspect=Compl
+Gloss="QUOTED_SPEECH"	Mood=Qot
+Gloss=re"-?LOC.*"	Case=Loc
+Gloss=re"-DUR.?"	Aspect=Imp
+Gloss=re"-MED.*"	VerbForm=Med
+Gloss=re".?COP.?"	upos=AUX & VerbType=Cop
+Gloss=re".*[^A-Z]PL.*"	Number=Plur
+Gloss=re".*1PL.*"	Person=1 & Number=Plur
+Gloss=re".*1SG.*"	Person=1 & Number=Sing
+Gloss=re".*2PL.*"	Person=2 & Number=Plur
+Gloss=re".*2SG.*"	Person=2 & Number=Sing
+Gloss=re".*3PL.*"	Person=3 & Number=Plur
+Gloss=re".*3SG.*"	Person=3 & Number=Sing
+Gloss=re".*DEM[1-4].*" || upos="PRON"|"pers"	upos=PRON & PronType=Dem
+Gloss=re".*DU\.F"	Number=Dual & Gender=Fem
+Gloss=re".*DU\.M"	Number=Dual & Gender=Masc
+Gloss=re".*FUT.*"	Tense=Fut
+Gloss=re".*INDEF.*"	Definite=Ind
+Gloss=re".*NEG.*"	Polarity=NEG
+Gloss=re".*NOT_HUM.*"	Animacy=Nhum
+Gloss=re".*POSS[^or]*"	Poss=Yes
+Gloss=re".*PST.*"	Tense=Past
+Gloss=re".*SG.?F"	Number=Sing & Gender=Fem
+Gloss=re".*SG.?M\.?[POS]*"	Number=Sing & Gender=Masc
+lemma="fali"	upos=PART
+lemma="-mo_6"	upos=SCONJ
+lemma="-se_2" & Gloss="-F.SG" || upos="X"	upos=DET & Gender=Fem & Number=Sing & NounClass=Tww2
+lemma="-we_1" & Gloss="-M.SG" || upos="X"	upos=DET & Gender=Masc & Number=Sing & NounClass=Tww1
+lemma=re"-?nami"	upos=ADV & Gloss="after"
+upos="_"	upos=X
+upos="?"	upos=X
+upos="adj"	upos=ADJ
+upos="adj>adv"	upos=ADP & DerPos=ADV & TokenType=DerAff
+upos="adp"	upos=ADP
+upos="adv"	upos=ADV
+upos="Adverb"	upos=X
+upos="AUX" & Gloss="-FIN"	VerbForm=Fin
+upos="cardnum"	upos=NUM
+upos="correlconn"	upos=CCONJ
+upos="dem"	upos=DET & PronType=Dem
+upos="ideo"	upos=ADV & AdvType=Ideoph
+upos="indfpro"	upos=PRON & PronType=Ind
+upos="interj"	upos=INTJ
+upos="interrog"	upos=PRON & PronType=Int
+upos="light verb" || Gloss=re".?COP.?"	upos=VERB & VerbType=Light
+upos="n:(Num)" & lemma="-le_1"	upos=DET
+upos="n:(Num)" || lemma="-le_1"	upos=DET
+upos="n:Tout" & Gloss="-ALL"	upos=ADP
+upos="n:Tout" || Gloss="-ALL"	upos=DET
+upos="n"	upos=NOUN
+upos="Noun"	upos=DET
+upos="pers"	upos=PRON & PronType=Prs
+upos="poss"	upos=DET & PronType=Prs & Poss=Yes
+upos="Possessive pronoun"	upos=ADP
+upos="pro-form"	upos=PRON
+upos="Pro-form"	upos=X
+upos="v:(GenderNumber)" || Gloss=re".*DEM[1-4].*"	upos=X
+upos="v" || lemma="-mo_6"|"fali"	upos=VERB
+upos="Verb"	upos=AUX
+upos="PRON" & Gloss=re".*DEM[1-4].*" & xpos="pers"|"n"	PronType=Prs
+upos="PRON" & Gloss=re".*DEM[1-4].*" || xpos="pers"|"n"	PronType=Dem
+upos=re"n  (.*)?*"	upos=NOUN
+upos=re"PN.*"	upos=PROPN
+upos=re"v:(?.*)?" || upos="v:(GenderNumber)"	upos=AUX

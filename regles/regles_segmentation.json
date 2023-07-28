@@ -1,0 +1,55 @@
+{
+	"-mle":{
+		"-mle":[["-m","-me_5", "PRON", "Gloss=-DEM1"],["-le", "-le_3", "X", "Gloss=-PL"]],
+		"-mlei":[["-m","-me_5", "PRON", "Gloss=-DEM1"],["-le", "-le_3", "X", "Gloss=-PL"], ["-i", "-io_1", "AUX", "Gloss=-FIN"]],
+		"-mele":[["-me","-me_5", "PRON", "Gloss=-DEM1"],["-le", "-le_3", "X", "Gloss=-PL"]]
+	},
+	"mle":{
+		"mle":[["m","me_6", "PRON", "Gloss=DEM1"],["-le", "-le_4", "X", "Gloss=-PL"]],
+		"meli":[["me","me_6", "PRON", "Gloss=DEM1"],["-li", "-le_4", "X", "Gloss=-PL"]],
+		"mele":[["me","me_6", "PRON", "Gloss=DEM1"],["-le", "-le_4", "X", "Gloss=-PL"]],
+		"le":[["me","me_6", "PRON", "Gloss=DEM1"],["-le", "-le_4", "X", "Gloss=-PL"]],
+		"mie":[["m","me_6", "PRON", "Gloss=DEM1"],["-ie", "-le_4", "X", "Gloss=-PL"]]
+	},
+	"mse":{
+		"mse":[["m", "me_6", "PRON", "Gloss=DEM1"], ["-se", "-se_6", "X", "Gloss=-F.SG"]],
+		"msei":[["m", "me_6", "PRON", "Gloss=DEM1"], ["-se", "-se_6", "X", "Gloss=-F.SG"]]
+	},
+	"-mse_1":{
+		"-mse":[["-m", "-me_6", "PRON", "Gloss=-DEM1"], ["-se", "-se_2", "X", "Gloss=-F.SG"]],
+		"-meso":[["-me", "-me_6", "PRON", "Gloss=-DEM1"], ["-so", "-se_2", "X", "Gloss=-F.SG"]],
+		"-mese":[["-me", "-me_6", "PRON", "Gloss=-DEM1"], ["-se", "-se_2", "X", "Goss=-F.SG"]]
+	},
+	"-mse_2":{
+		"-mse":[["-m", "-me_5", "PRON", "Gloss=-DEM1"], ["-se", "-se_5", "X", "Gloss=-F.SG"]]
+	},
+	"-msei":{
+		"-msei":[["-m", "-me_5", "PRON", "Gloss=-DEM1"], ["-se", "-se_5", "X", "Gloss=F.SG"], ["-i", "-io_1", "AUX", "Gloss=-FIN"]],
+		"-mesei":[["-me", "-me_5", "PRON", "Gloss=-DEM1"], ["-se", "-se_5", "X", "Gloss=F.SG"], ["-i", "-io_1", "AUX", "Gloss=-FIN"]]
+	},
+	"-lei_3":{
+		"-lei":[["-le", "-le_1", "DET", "Gloss=-PL"], ["-i", "-io_2", "AUX", "Gloss=-FIN"]]
+	},
+	"-lei_1":{
+		"-lei":[["-le", "-le_3", "PRON", "Gloss=-PL"], ["-i", "-io_1", "AUX", "Gloss=-FIN"]],
+		"-lii":[["-li", "-le_3", "PRON", "Gloss=-PL"], ["-i", "-io_1", "AUX", "Gloss=-FIN"]],
+		"-leio":[["-le", "-le_3", "PRON", "Gloss=-PL"], ["-io", "-io_1", "AUX", "Gloss=-FIN"]]
+	},
+	"mwe":{
+		"mwe":[["-m", "-me_6", "PRON", "Gloss=-DEM1"], ["-we", "-we_6", "X", "Gloss=-M.SG"]],
+		"mwo":[["-m", "-me_6", "PRON", "Gloss=-DEM1"], ["-wo", "-we_6", "X", "Gloss=-M.SG"]]
+	},
+	"-mwe_1":{
+		"-mwe":[["-m", "-me_5", "PRON", "Gloss=-DEM1"], ["-we", "-we_5", "X", "Gloss=-M.SG"]]
+	},
+	"-mwe_2":{
+		"-mwe":[["-m", "-me_6", "PRON", "Gloss=-DEM1"], ["-we", "-we_1", "X", "Gloss=-M.SG"]]
+	},
+	"-mwii":{
+		"-mwii":[["-m", "-me_5", "PRON", "Gloss=-DEM1"], ["-wi", "-we_5", "X", "Gloss=-M.SG"], ["-i", "-io_1", "AUX", "Gloss=-FIN"]],
+		"-mwiio":[["-m", "-me_5", "PRON", "Gloss=-DEM1"], ["-wi", "-we_5", "X", "Gloss=-M.SG"], ["-io", "-io_1", "AUX", "Gloss=-FIN"]],
+		"-mwi":[["-m", "-me_5", "PRON", "Gloss=-DEM1"], ["-wi", "-we_5", "X", "Gloss=-M.SG"]],
+		"-mwei":[["-m", "-me_5", "PRON", "Gloss=-DEM1"], ["-wi", "-we_5", "X", "Gloss=-M.SG"], ["-i", "-io_1", "AUX", "Gloss=-FIN"]]
+	}
+}
+
