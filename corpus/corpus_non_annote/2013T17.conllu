@@ -1,0 +1,76 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1
+# text = a fonane fefe si -fo ateli -mwii
+# text_en = This morning I have weed a taro field.
+# doc_id = 2013T17
+# doc_title = 2013T17 A day in the garden with Andrew
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	fonane	fonane	ADV	adv	_	_	_	_	Gloss=today
+3	fefe	fefe	NOUN	n  (mo)	_	_	_	_	Gloss=taro
+4	si	si_2	NOUN	n  (fo)	_	_	_	_	Gloss=bush_ground
+5	-fo	-fo	DET	n:(NounGenderNumber)	NounClass=Tww5|Number=Sing	_	_	_	Gloss=-V.SG
+6	ateli	ateli	VERB	v	_	_	_	_	Gloss=to_weed
+7	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+8	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+9	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 2
+# text = si -fo ateli -aple -nami m- atli -aple -nami mi -le to -li -mwii
+# text_en = Once the field has been weeded, I cut down trees.
+# doc_id = 2013T17
+# doc_title = 2013T17 A day in the garden with Andrew
+1	si	si_2	NOUN	n  (fo)	_	_	_	_	Gloss=bush_ground
+2	-fo	-fo	DET	n:(NounGenderNumber)	NounClass=Tww5|Number=Sing	_	_	_	Gloss=-V.SG
+3	ateli	ateli	VERB	v	_	_	_	_	Gloss=to_weed
+4	-aple	-aple	AUX	v:(Aspect/Modality2)	Aspect=Perf	_	_	_	Gloss=-PRF
+5	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+6	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+7	atli	ateli	VERB	v	_	_	_	_	Gloss=to_weed
+8	-aple	-aple	AUX	v:(Aspect/Modality2)	Aspect=Perf	_	_	_	Gloss=-PRF
+9	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+10	mi	mi_1	NOUN	n  (o)	_	_	_	_	Gloss=tree
+11	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+12	to	tou_1	VERB	v	_	_	_	_	Gloss=to_cut
+13	-li	-li_4	AUX	v:(Tense)	Tense=Past	_	_	_	Gloss=-PST_(this_morning)
+14	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+15	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+16	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 3
+# text = mi -le m- to -nami mine -le ota -u -fiia -li -mwii
+# text_en = Once the trees had been cut down, I cleared away the branches.
+# doc_id = 2013T17
+# doc_title = 2013T17 A day in the garden with Andrew
+1	mi	mi_1	NOUN	n  (o)	_	_	_	_	Gloss=tree
+2	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+3	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+4	to	tou_1	VERB	v	_	_	_	_	Gloss=to_cut
+5	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+6	mine	mine	NOUN	n	_	_	_	_	Gloss=branch_leaf
+7	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+8	ota	ota	VERB	v	_	_	_	_	Gloss=to_chase_out
+9	-u	-u	AUX	v:(Tense2)	_	_	_	_	Gloss=-?
+10	-fiia	-fiia	AUX	Verb	_	_	_	_	Gloss=-?
+11	-li	-li_4	AUX	v:(Tense)	Tense=Past	_	_	_	Gloss=-PST_(this_morning)
+12	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+13	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+14	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 4
+# text = m- ota -u -fiia -aple -ne a onoma wa- ia -mwii
+# text_en = Once I had cleared away the branches, I went back home.
+# doc_id = 2013T17
+# doc_title = 2013T17 A day in the garden with Andrew
+1	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+2	ota	ota	VERB	v	_	_	_	_	Gloss=to_chase_out
+3	-u	-u	AUX	v:(Tense2)	_	_	_	_	Gloss=-?
+4	-fiia	-fiia	AUX	Verb	_	_	_	_	Gloss=-?
+5	-aple	-aple	AUX	v:(Aspect/Modality2)	Aspect=Perf	_	_	_	Gloss=-PRF
+6	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+7	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+8	onoma	onoma	ADV	adv	_	_	_	_	Gloss=to_house
+9	wa-	wa-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=back-
+10	ia	ia_1	VERB	v	_	_	_	_	Gloss=kam
+11	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+12	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+13	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN

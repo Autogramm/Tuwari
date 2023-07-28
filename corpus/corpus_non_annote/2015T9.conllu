@@ -1,0 +1,204 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1.1
+# text = o -nwe -io kesia -le ii -li -i neano nueliia -io
+# text_en = This child would like to go and play]
+# doc_id = 2015T9
+# doc_title = Breaking firewood. A story based on the pictures of the book "Safe, healthy homes", Departement of Education of Papua New Guinea.
+1	o	o_3	NOUN	n	_	_	_	_	Gloss=child
+2	-nwe	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+3	-io	-io_2	DET	n:Tout	_	_	_	_	Gloss=-FIN_NOUN
+4	kesia	kesia	NOUN	n	_	_	_	_	Gloss=play
+5	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+6	ii	io	VERB	v	_	_	_	_	Gloss=to_go
+7	-li	-li_4	AUX	v:(Tense)	_	_	_	_	Gloss=-PRS
+8	-i	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+9	neano	naano_1	VERB	v	_	_	_	_	Gloss=to_like
+10	nueliia	nulia	ADV	adv	_	_	_	_	Gloss=adversatif_temporel_but
+11	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.2
+# text = tasol naale -se meli -io me f- a -io ianu -le i -ne to -wo
+# text_en = But his mother said to him: "don't go. Go and cut some firewood."
+# doc_id = 2015T9
+# doc_title = Breaking firewood. A story based on the pictures of the book "Safe, healthy homes", Departement of Education of Papua New Guinea.
+1	tasol	tasol	ADV	adv	_	_	_	_	Gloss=only
+2	naale	naalo_1	NOUN	n	_	_	_	_	Gloss=mother(non appelatif)
+3	-se	-se_2	DET	n:(NounGenderNumber)	Gender=Fem|NounClass=Tww2|Number=Sing	_	_	_	Gloss=-F.SG
+4	meli	meli_1	VERB	v	_	_	_	_	Gloss=to_talk
+5	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+6	me	me_1	PRON	pers	Gender=Masc|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=2SG.M
+7	f-	fe-	AUX	v:(Polarity)	Polarity=NEG	_	_	_	Gloss=NEG-
+8	a	a_1	VERB	v	_	_	_	_	Gloss=to_go
+9	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+10	ianu	ianu_1	NOUN	n  (fe)	_	_	_	_	Gloss=fire_wood
+11	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+12	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+13	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+14	to	tou_1	VERB	v	_	_	_	_	Gloss=to_cut
+15	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 2.1
+# text = mei muli -ia mwe kola soli -fe mehe -si ate -ne ma- afei -ni -i i -ma -we
+# text_en = Once she talked, he seized an axe, hold it, and jump away.
+# doc_id = 2015T9
+# doc_title = Breaking firewood. A story based on the pictures of the book "Safe, healthy homes", Departement of Education of Papua New Guinea.
+1	mei	mei	X	?	Mood=Qot	_	_	_	Gloss=QUOTED_SPEECH
+2	muli	meli_1	VERB	v	_	_	_	_	Gloss=to_talk
+3	-ia	-ia_2	AUX	v:(Tense)	Tense=Past	_	_	_	Gloss=-PST
+4	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+5	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+6	kola	kola	VERB	v	_	_	_	_	Gloss=quick
+7	soli	soli	NOUN	n  (fe)	_	_	_	_	Gloss=axe
+8	-fe	-fe_1	DET	n:(NounGenderNumber)	NounClass=Tww7|Number=Sing	_	_	_	Gloss=-VII.SG
+9	mehe	maha_1	VERB	v	_	_	_	_	Gloss=to_take
+10	-si	-si	AUX	Verb	_	_	_	_	Gloss=-?
+11	ate	ato	VERB	v	_	_	_	_	Gloss=to_hold
+12	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+13	ma-	ma-_2	AUX	v:(dir-)	_	_	_	_	Gloss=down?-
+14	afei	afei	VERB	v	_	_	_	_	Gloss=to_jump
+15	-ni	-ni_2	AUX	v:(Aspect/Modality2)	Tense=Fut	_	_	_	Gloss=-?FUT.PROX
+16	-i	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+17	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+18	-ma	-ma_2	AUX	v:(Tense)	_	_	_	_	Gloss=-NOW
+19	-we	-we_1	DET	n:(NounGenderNumber)	Gender=Masc|NounClass=Tww1|Number=Sing	_	_	_	Gloss=-M.SG
+
+# sent_id = 2.2
+# text = m- afi -ne teia -ma mi- tete
+# text_en = After running he arrived in the garden.
+# doc_id = 2015T9
+# doc_title = Breaking firewood. A story based on the pictures of the book "Safe, healthy homes", Departement of Education of Papua New Guinea.
+1	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+2	afi	afei	VERB	v	_	_	_	_	Gloss=to_jump
+3	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+4	teia	teia	NOUN	n  (ei)	_	_	_	_	Gloss=garden
+5	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+6	mi-	mi-	AUX	v:(dir-)	_	_	_	_	Gloss=up-
+7	tete	teto	VERB	v	_	_	_	_	Gloss=kamap_sanap
+
+# sent_id = 3.1
+# text = ianu -le metemaimai tofo -li -mo soli -fe helefe miʔa moi- tou sopuno
+# text_en = While broking  firewood in a hurry the axe cut his leg
+# doc_id = 2015T9
+# doc_title = Breaking firewood. A story based on the pictures of the book "Safe, healthy homes", Departement of Education of Papua New Guinea.
+1	ianu	ianu_1	NOUN	n  (fe)	_	_	_	_	Gloss=fire_wood
+2	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+3	metemaimai	metemaimai	ADV	adv	_	_	_	_	Gloss=quickly
+4	tofo	tofo_1	VERB	v	_	_	_	_	Gloss=to_broke
+5	-li	-li_2	AUX	v:(Tense)	_	_	_	_	Gloss=-?
+6	-mo	-mo_6	SCONJ	v	VerbForm=Med	_	_	_	Gloss=-MED2previousness
+7	soli	soli	NOUN	n  (fe)	_	_	_	_	Gloss=axe
+8	-fe	-fe_1	DET	n:(NounGenderNumber)	NounClass=Tww7|Number=Sing	_	_	_	Gloss=-VII.SG
+9	helefe	helefe	NOUN	n	_	_	_	_	Gloss=leg
+10	miʔa	miʔa	VERB	v	_	_	_	_	Gloss=to_cross
+11	moi-	moi-	AUX	Verb	_	_	_	_	Gloss=?(to)-
+12	tou	tou_1	VERB	v	_	_	_	_	Gloss=to_cut
+13	sopuno	sopuno	NOUN	n	_	_	_	_	Gloss=wound?
+
+# sent_id = 3.2
+# text = mwe= helefe soli -fe moi- tou sopuno
+# text_en = his leg is wounded by the axe.
+# doc_id = 2015T9
+# doc_title = Breaking firewood. A story based on the pictures of the book "Safe, healthy homes", Departement of Education of Papua New Guinea.
+1	mwe=	mwe=	DET	poss	Poss=Yes|PronType=Prs	_	_	_	Gloss=3S.M.POSS==
+2	helefe	helefe	NOUN	n	_	_	_	_	Gloss=leg
+3	soli	soli	NOUN	n  (fe)	_	_	_	_	Gloss=axe
+4	-fe	-fe_1	DET	n:(NounGenderNumber)	NounClass=Tww7|Number=Sing	_	_	_	Gloss=-VII.SG
+5	moi-	moi-	AUX	Verb	_	_	_	_	Gloss=?(to)-
+6	tou	tou_1	VERB	v	_	_	_	_	Gloss=to_cut
+7	sopuno	sopuno	NOUN	n	_	_	_	_	Gloss=wound?
+
+# sent_id = 4.1
+# text = m- ateoflo -mo me- sle -nami mwe= -ne apailo taa -s -we m- a -nami nemesi -he usia -mo m- a -ne
+# text_en = After he sat down, and a relative of him came, the blood was flowing.
+# doc_id = 2015T9
+# doc_title = Breaking firewood. A story based on the pictures of the book "Safe, healthy homes", Departement of Education of Papua New Guinea.
+1	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+2	ateoflo	ateoflo	VERB	v	_	_	_	_	Gloss=to_make_a_bandage
+3	-mo	-mo_6	SCONJ	v	VerbForm=Med	_	_	_	Gloss=-MED2_goal
+4	me-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+5	sle	sele_1	VERB	v	_	_	_	_	Gloss=to_sit
+6	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+7	mwe=	mwe=	DET	poss	Poss=Yes|PronType=Prs	_	_	_	Gloss=3S.M.POSS==
+8	-ne	-ne_2	ADP	Possessive pronoun	_	_	_	_	Gloss=-POSSor
+9	apailo	apailo	NOUN	n	_	_	_	_	Gloss=relative?
+10	taa	taa_1	NOUN	n  (he)	_	_	_	_	Gloss=side
+11	-s	se_4	PRON	NOUN	PronType=Dem	_	_	_	Gloss=DEM3:other_one
+12	-we	-we_2	DET	n:Tout	Poss=Yes	_	_	_	Gloss=-M.SG.POSS
+13	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+14	a	a_1	VERB	v	_	_	_	_	Gloss=to_go
+15	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+16	nemesi	nemesi	NOUN	n	_	_	_	_	Gloss=blood
+17	-he	-he_1	DET	n:(NounGenderNumber)	NounClass=Tww4|Number=Sing	_	_	_	Gloss=-IV.SG
+18	usia	usia_1	ADV	adv	_	_	_	_	Gloss=outside
+19	-mo	-mo_6	SCONJ	v	VerbForm=Med	_	_	_	Gloss=-MED2simultaneous
+20	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+21	a	a_1	VERB	v	_	_	_	_	Gloss=to_come
+22	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+
+# sent_id = 4.2
+# text = eni -mo me- tefi -ne me- nen opalo oflo
+# text_en = They bandage the wound with a rope.
+# doc_id = 2015T9
+# doc_title = Breaking firewood. A story based on the pictures of the book "Safe, healthy homes", Departement of Education of Papua New Guinea.
+1	eni	eni	NOUN	n  (mo)	_	_	_	_	Gloss=rope
+2	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+3	me-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+4	tefi	tefi	VERB	v	_	_	_	_	Gloss=to_push_to_pull
+5	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+6	me-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+7	nen	_	_	_	_	_	_	_	_
+8	opalo	hopalu	NOUN	n  (mo)	_	_	_	_	Gloss=wound
+9	oflo	oflei	VERB	v	_	_	_	_	Gloss=to_encircle
+
+# sent_id = 4.3
+# text = minami opalo fo -u -w hausiki -ma minami mwe kola helene -fe mesi -mo honuafi
+# text_en = After having bandaged the wound, and having gone to the hospital, they sewed up the wound.
+# doc_id = 2015T9
+# doc_title = Breaking firewood. A story based on the pictures of the book "Safe, healthy homes", Departement of Education of Papua New Guinea.
+1	minami	minami	ADV	adv	_	_	_	_	Gloss=then
+2	opalo	hopalu	NOUN	n  (mo)	_	_	_	_	Gloss=wound
+3	fo	fo_3	VERB	v	_	_	_	_	Gloss=to_rope
+4	-u	-u	AUX	v:(Tense2)	_	_	_	_	Gloss=-?
+5	-w	_	_	_	_	_	_	_	_
+6	hausiki	haussik	NOUN	n	_	_	_	_	Gloss=hospital
+7	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+8	minami	minami	ADV	adv	_	_	_	_	Gloss=then
+9	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+10	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+11	kola	kola	VERB	v	_	_	_	_	Gloss=quick
+12	helene	helene	NOUN	n  (fe)	_	_	_	_	Gloss=leg
+13	-fe	-fe_1	DET	n:(NounGenderNumber)	NounClass=Tww7|Number=Sing	_	_	_	Gloss=-VII.SG
+14	mesi	mesi_2	NOUN	n	_	_	_	_	Gloss=needle
+15	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+16	honuafi	honuafi	VERB	v	_	_	_	_	Gloss=to_sew
+
+# sent_id = 5
+# text = malasin -mle nefi ma- oplase -aple -nami ia soli -fe nefi -le wamuno -nami ianu -le to sihomu nasi nasela nemele holii -mwii
+# text_en = After medication has been given and the wound has healed, and once the axe sharpened, he cut firewood, and made all sort of work.
+# doc_id = 2015T9
+# doc_title = Breaking firewood. A story based on the pictures of the book "Safe, healthy homes", Departement of Education of Papua New Guinea.
+1	malasin	malasine	NOUN	n	_	_	_	_	Gloss=medic
+2	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+3	-le	-le_3	X	_	Number=Plur	_	_	_	Gloss=-PL
+4	nefi	nefi_1	VERB	v	_	_	_	_	Gloss=to_give
+5	ma-	ma-_2	AUX	v:(dir-)	_	_	_	_	Gloss=down?-
+6	oplase	oplasi	VERB	v	_	_	_	_	Gloss=to_dry
+7	-aple	-aple	AUX	v:(Aspect/Modality2)	Aspect=Perf	_	_	_	Gloss=-PRF
+8	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+9	ia	ia_3	CCONJ	correlconn	_	_	_	_	Gloss=so_that
+10	soli	soli	NOUN	n  (fe)	_	_	_	_	Gloss=axe
+11	-fe	-fe_1	DET	n:(NounGenderNumber)	NounClass=Tww7|Number=Sing	_	_	_	Gloss=-VII.SG
+12	nefi	nefi_2	NOUN	n	_	_	_	_	Gloss=sharp_stone
+13	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+14	wamuno	wamuno	VERB	v	_	_	_	_	Gloss=to_sharp
+15	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+16	ianu	ianu_1	NOUN	n  (fe)	_	_	_	_	Gloss=fire_wood
+17	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+18	to	tou_1	VERB	v	_	_	_	_	Gloss=to_cut
+19	sihomu	sihomo	NOUN	n	_	_	_	_	Gloss=work
+20	nasi nasela	nasi nasela	PRON	indfpro	PronType=Ind	_	_	_	Gloss=everythin
+21	nemele	nemele	PRON	ADJ	Number=Plur|PronType=Dem	_	_	_	Gloss=DEM2:DEM1:PL
+22	holii	holua	VERB	v	_	_	_	_	Gloss=to_work
+23	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+24	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+25	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN

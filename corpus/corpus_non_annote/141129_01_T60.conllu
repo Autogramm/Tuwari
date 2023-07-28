@@ -1,0 +1,253 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1.1
+# text = sylwa -nwe -io ta -lo m- a -ne tau -to pase -ma mutaano -se -ne mwe -io ti- wa- i -nai -he kilali -lo -wo opsono mumaama -mo
+# text_en = After Sylvain came and lived with us, on the banks of the Tau River,  he will now soon go to his village.
+# doc_id = 141129_01_T60
+# doc_title = 141129_01_T60 +
+1	sylwa	sylvain	PROPN	PN	_	_	_	_	Gloss=Sylvain
+2	-nwe	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+3	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+4	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+5	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+6	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+7	a	a_1	VERB	v	_	_	_	_	Gloss=to_come
+8	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+9	tau	tau	PROPN	PN_hydronym	_	_	_	_	Gloss=Tau
+10	-to	-tano	DET	n:(NounGenderNumber)	NounClass=Tww10|Number=Sing	_	_	_	Gloss=-X.SG
+11	pase	pase	NOUN	n	_	_	_	_	Gloss=sand
+12	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+13	mutaano	mutaano	VERB	v	_	_	_	_	Gloss=to_stay
+14	-se	-se_1	AUX	v:(Aspect/Modality2)	Aspect=Imp	_	_	_	Gloss=-DUR?
+15	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+16	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+17	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+18	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+19	ti-	te-_2	AUX	v:(Modality1)	_	_	_	_	Gloss=now-
+20	wa-	wa-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=back-
+21	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+22	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+23	-he	-he_2	AUX	v:(Aspect/Modality2)	_	_	_	_	Gloss=-?
+24	kilali	kilali	ADV	adv	_	_	_	_	Gloss=close_to
+25	-lo	-lo_2	AUX	AUX	VerbType=Cop	_	_	_	Gloss=-COP?
+26	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+27	opsono	opsono	NOUN	n	_	_	_	_	Gloss=village
+28	mumaama	mumauma	DET	poss	Poss=Yes|PronType=Prs	_	_	_	Gloss=belonging_to_him
+29	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+
+# sent_id = 1.2
+# text = mwe -io ita hou awa honu tau -tano upase -ma u ta afetei -ne -io te- wa- i -nai -he
+# text_en = He will leave his father, cousin, brother here and the Tau River banks and go.
+# doc_id = 141129_01_T60
+# doc_title = 141129_01_T60 +
+1	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+2	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+3	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+4	ita	ita	NOUN	n	_	_	_	_	Gloss=father
+5	hou	hou_1	NOUN	n	_	_	_	_	Gloss=cousin
+6	awa	awa	NOUN	n	_	_	_	_	Gloss=sibling
+7	honu	honu	ADV	adv	Case=Loc	_	_	_	Gloss=LOC:here;there
+8	tau	tau	PROPN	PN_hydronym	_	_	_	_	Gloss=Tau
+9	-tano	-tano	DET	n:(NounGenderNumber)	NounClass=Tww10|Number=Sing	_	_	_	Gloss=-X.SG
+10	upase	upase	NOUN	n  (he)	_	_	_	_	Gloss=sand_bank
+11	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+12	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+13	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+14	afetei	afetei	VERB	v	_	_	_	_	Gloss=to_leave
+15	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+16	-io	-io_1	AUX	v:Tout	VerbForm=Med	_	_	_	Gloss=-MED+?
+17	te-	te-_2	AUX	v:(Modality1)	_	_	_	_	Gloss=now-
+18	wa-	wa-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=back-
+19	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+20	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+21	-he	-he_2	AUX	v:(Aspect/Modality2)	_	_	_	_	Gloss=-?
+
+# sent_id = 1.3
+# text = kilali -te -lo -wo mwe i -io -wo ta -wa afete -nei -nai -mwii -na osapo fumalene ta -lo m- u toano -se -ne te- wa- i -nai -mwi -io
+# text_en = I will go soon and will leave us, thanks a lot for having stayed with us, now you will go.
+# doc_id = 141129_01_T60
+# doc_title = 141129_01_T60 +
+1	kilali	kilali	ADV	adv	_	_	_	_	Gloss=close_to
+2	-te	-te_1	AUX	v:(Aspect/Modality2)	_	_	_	_	Gloss=-?
+3	-lo	-lo_2	AUX	AUX	VerbType=Cop	_	_	_	Gloss=-COP?
+4	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+5	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+6	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+7	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+8	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+9	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+10	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+11	-wa	_	_	_	_	_	_	_	_
+12	afete	afetei	VERB	v	_	_	_	_	Gloss=to_leave
+13	-nei	-nei	AUX	v:(Aspect/Modality2)	_	_	_	_	Gloss=-go?
+14	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+15	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+16	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+17	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+18	-na	-na_1	AUX	v:(Aspect/Modality2)	_	_	_	_	Gloss=-?INTSFIER?
+19	osapo	osapo	ADV	adv	_	_	_	_	Gloss=thank_you
+20	fumalene	fumalene	ADV	adv	_	_	_	_	Gloss=a_lot
+21	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+22	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+23	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+24	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+25	toano	toano	ADV	adv	_	_	_	_	Gloss=long_time
+26	-se	-se_1	AUX	v:(Aspect/Modality2)	Aspect=Imp	_	_	_	Gloss=-DUR?
+27	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+28	te-	te-_2	AUX	v:(Modality1)	_	_	_	_	Gloss=now-
+29	wa-	wa-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=back-
+30	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+31	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+32	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+33	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+34	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.4
+# text = mwe i -ne u -se -ne krismasi tuafe masapowo touano ienipe -fo ino o ieniso -fo ino ufolo mwe eisofe wa- ia -nai -mwi -io
+# text_en = He will go and stay and after christmas, next year, during the moon of September or October, I will come back.
+# doc_id = 141129_01_T60
+# doc_title = 141129_01_T60 +
+1	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+2	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+3	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+4	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+5	u	u_2	VERB	v	_	_	_	_	Gloss=to_stay
+6	-se	-se_1	AUX	v:(Aspect/Modality2)	Aspect=Imp	_	_	_	Gloss=-DUR?
+7	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+8	krismasi	krismasi	NOUN	n	_	_	_	_	Gloss=Chrismas
+9	tuafe	tuafe	ADV	adv	_	_	_	_	Gloss=behind
+10	masapowo	masapowo	ADV	adv	_	_	_	_	Gloss=next_year
+11	touano	touano	NOUN	n  (fo)	_	_	_	_	Gloss=moon
+12	ienipe	ienipe	NUM	cardnum	_	_	_	_	Gloss=september
+13	-fo	-fo	DET	n:(NounGenderNumber)	NounClass=Tww5|Number=Sing	_	_	_	Gloss=-V.SG
+14	ino	_	_	_	_	_	_	_	_
+15	o	o_5	CCONJ	correlconn	_	_	_	_	Gloss=or
+16	ieniso	ieniso	NOUN	n	_	_	_	_	Gloss=october
+17	-fo	-fo	DET	n:(NounGenderNumber)	NounClass=Tww5|Number=Sing	_	_	_	Gloss=-V.SG
+18	ino	_	_	_	_	_	_	_	_
+19	ufolo	ufolo	_	_	_	_	_	_	Gloss=displa_moon?
+20	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+21	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+22	eisofe	eisefe	ADV	adv	_	_	_	_	Gloss=back
+23	wa-	wa-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=back-
+24	ia	ia_1	VERB	v	_	_	_	_	Gloss=kam
+25	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+26	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+27	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+28	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.5
+# text = wa- ia -ne -io hou awa ta -lo -wo tau -to pase -ma wa- u -tano -nai -mwi -io
+# text_en = I will come back and stay with use, cousins and brothers, on the Tau River banks.
+# doc_id = 141129_01_T60
+# doc_title = 141129_01_T60 +
+1	wa-	wa-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=back-
+2	ia	ia_1	VERB	v	_	_	_	_	Gloss=kam
+3	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+4	-io	-io_1	AUX	v:Tout	VerbForm=Med	_	_	_	Gloss=-MED+?
+5	hou	hou_1	NOUN	n	_	_	_	_	Gloss=cousin
+6	awa	awa	NOUN	n	_	_	_	_	Gloss=sibling
+7	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+8	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+9	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+10	tau	tau	PROPN	PN_hydronym	_	_	_	_	Gloss=Tau
+11	-to	-tano	DET	n:(NounGenderNumber)	NounClass=Tww10|Number=Sing	_	_	_	Gloss=-X.SG
+12	pase	pase	NOUN	n	_	_	_	_	Gloss=sand
+13	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+14	wa-	wa-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=back-
+15	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+16	-tano	-tano	DET	n:(NounGenderNumber)	NounClass=Tww10|Number=Sing	_	_	_	Gloss=-X.SG
+17	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+18	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+19	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+20	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.6
+# text = ta -lo honu m- u -se -ne ia tuwali ia -nehe mali tihomene -se -ne mwe -io opsono mumauma heisefo wa- -nai -mwi -io
+# text_en =  [He will stay with us and will learn to speak Tuwari then he will go back again to his place.]
+# doc_id = 141129_01_T60
+# doc_title = 141129_01_T60 +
+1	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+2	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+3	honu	honu	ADV	adv	Case=Loc	_	_	_	Gloss=LOC:here;there
+4	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+5	u	u_2	VERB	v	_	_	_	_	Gloss=to_stay
+6	-se	-se_1	AUX	v:(Aspect/Modality2)	Aspect=Imp	_	_	_	Gloss=-DUR?
+7	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+8	ia	ia_2	NOUN	n  (he)	_	_	_	_	Gloss=speech
+9	tuwali	tuwali_1	PROPN	PN_demonym	_	_	_	_	Gloss=Tuwari
+10	ia	ia_2	NOUN	n	_	_	_	_	Gloss=language
+11	-nehe	-nehe	PRON	v:(GenderNumber)	PronType=Dem	_	_	_	Gloss=-DEM2:DEM4
+12	mali	mali	VERB	v	_	_	_	_	Gloss=to_talk
+13	tihomene	tiomene	VERB	v	_	_	_	_	Gloss=to_learn
+14	-se	-se_1	AUX	v:(Aspect/Modality2)	Aspect=Imp	_	_	_	Gloss=-DUR?
+15	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+16	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+17	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+18	-io	-io_2	DET	n:Tout	_	_	_	_	Gloss=-FIN_NOUN
+19	opsono	opsono	NOUN	n	_	_	_	_	Gloss=village
+20	mumauma	mumauma	DET	poss	Poss=Yes|PronType=Prs	_	_	_	Gloss=belonging_to_him
+21	heisefo	eisefe	ADV	adv	_	_	_	_	Gloss=back
+22	wa-	wa-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=back-
+23	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+24	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+25	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+26	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.7
+# text = i wa -nai -mwii wa- ia -nai -mwii i ia -nehe -io tuwali ia -nehe mai tihomene ano -se -ne -io
+#  = # text_en =
+# doc_id = 141129_01_T60
+# doc_title = 141129_01_T60 +
+1	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+2	wa	wa_2	VERB	v	_	_	_	_	Gloss=back
+3	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+4	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+5	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+6	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+7	wa-	wa-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=back-
+8	ia	ia_1	VERB	v	_	_	_	_	Gloss=kam
+9	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+10	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+11	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+12	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+13	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+14	ia	ia_2	NOUN	n  (he)	_	_	_	_	Gloss=speech
+15	-nehe	-nehe	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM.PROX(DEM2:DEM4)
+16	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+17	tuwali	tuwali_1	PROPN	PN_demonym	_	_	_	_	Gloss=Tuwari
+18	ia	ia_2	NOUN	n  (he)	_	_	_	_	Gloss=speech
+19	-nehe	-nehe	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM.PROX(DEM2:DEM4)
+20	mai	mali	NOUN	n	_	_	_	_	Gloss=talk
+21	tihomene	tiomene	VERB	v	_	_	_	_	Gloss=to_learn
+22	ano	ano_1	VERB	v	_	_	_	_	Gloss=to_want
+23	-se	-se_1	AUX	v:(Aspect/Modality2)	Aspect=Imp	_	_	_	Gloss=-DUR?
+24	-ne	-ne_4	VERB	v	Tense=Fut	_	_	_	Gloss=-IMM
+25	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.8
+# text = mio ta -me -li waai -nehe mali mwe -io ta afetei -ne otou opsono mumauma nemenemi itiale -nai -mwi -io
+#  = # text_en =
+# doc_id = 141129_01_T60
+# doc_title = 141129_01_T60 +
+1	mio	mio_2	VERB	v	_	_	_	_	Gloss=to_go_down
+2	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+3	-me	-me_2	X	Pro-form	_	_	_	_	_
+4	-li	-li_1	X	Pro-form	_	_	_	_	Gloss=-?
+5	waai	waai_1	NUM	cardnum	_	_	_	_	Gloss=one
+6	-nehe	-nehe	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM.PROX(DEM2:DEM4)
+7	mali	mali	VERB	v	_	_	_	_	Gloss=to_talk
+8	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+9	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+10	-io	-io_2	DET	n:Tout	_	_	_	_	Gloss=-FIN_NOUN
+11	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+12	afetei	afetei	VERB	v	_	_	_	_	Gloss=to_leave
+13	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+14	otou	otou	ADV	adv	_	_	_	_	Gloss=behind
+15	opsono	opsono	NOUN	n	_	_	_	_	Gloss=village
+16	mumauma	mumauma	DET	poss	Poss=Yes|PronType=Prs	_	_	_	Gloss=belonging_to_him
+17	nemenemi	nemenemi	ADJ	adj	_	_	_	_	Gloss=completelya_without_return
+18	itiale	_	_	_	_	_	_	_	_
+19	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+20	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+21	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+22	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN

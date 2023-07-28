@@ -1,0 +1,141 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1.1
+# text = a honu afetei -ne iowe i -nai -mwii
+# text_en = I will leave here and go.
+# doc_id = 141116_T46bis
+# doc_title = My trip back home
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	honu	honu	ADV	adv	Case=Loc	_	_	_	Gloss=LOC:here;there
+3	afetei	afetei	VERB	v	_	_	_	_	Gloss=to_leave
+4	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+5	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+6	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+7	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+8	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+9	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+10	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.2
+# text = a no soluso sle -ne i -nai -mwii
+# text_en = I will go in three weeks.
+# doc_id = 141116_T46bis
+# doc_title = My trip back home
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	no	no_1	NOUN	n  (mo)	_	_	_	_	Gloss=week
+3	soluso	selisa	NUM	cardnum	_	_	_	_	Gloss=three
+4	sle	sele_1	VERB	v	_	_	_	_	Gloss=to_stay
+5	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+6	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+7	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+8	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+9	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+10	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.3
+# text = i -ne sumwari -ma i tete -nai -mwii
+# text_en = I will go to Sumwari.
+# doc_id = 141116_T46bis
+# doc_title = My trip back home
+1	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+2	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+3	sumwari	sumwari	PROPN	PN_toponyme	_	_	_	_	Gloss=Sumwari
+4	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+5	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+6	tete	teto	VERB	v	_	_	_	_	Gloss=to_stand_up
+7	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+8	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+9	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+10	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.4
+# text = nami balu -sapo eni -mo -lo mail -u -ni
+# text_en = Then I will call a plane by radio.
+# doc_id = 141116_T46bis
+# doc_title = My trip back home
+1	nami	nami	ADV	ADV	_	_	_	_	Gloss=after
+2	balu	balu	NOUN	n  (sapoi)sapo	_	_	_	_	Gloss=plane
+3	-sapo	-sapo	DET	n:(NounGenderNumber)	NounClass=Tww9|Number=Sing	_	_	_	Gloss=-IX.SG
+4	eni	eni	NOUN	n  (mo)	_	_	_	_	Gloss=radio
+5	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+6	-lo	-lo_3	NOUN	n	Case=Ins	_	_	_	Gloss=-INS
+7	mail	mali	VERB	v	_	_	_	_	Gloss=to_talk
+8	-u	-u	AUX	v:(Tense2)	_	_	_	_	Gloss=-?
+9	-ni	-ni_2	AUX	v:(Tense)	Tense=Fut	_	_	_	Gloss=-FUT.S1S
+
+# sent_id = 1.5
+# text = balu -sapo malu -nami iowe a -nai -sapoi
+# text_en = After having called the plane it will come.
+# doc_id = 141116_T46bis
+# doc_title = My trip back home
+1	balu	balu	NOUN	n  (sapoi)sapo	_	_	_	_	Gloss=plane
+2	-sapo	-sapo	DET	n:(NounGenderNumber)	NounClass=Tww9|Number=Sing	_	_	_	Gloss=-IX.SG
+3	malu	mali	VERB	v	_	_	_	_	Gloss=to_talk
+4	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+5	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+6	a	a_1	VERB	v	_	_	_	_	Gloss=to_come
+7	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+8	-sapoi	-sapo	DET	n:(NounGenderNumber)	NounClass=Tww9|Number=Sing	_	_	_	Gloss=-IX.SG
+
+# sent_id = 1.6
+# text = inami a iowe sele -nei iowe i -ni -i wewek -ma io fau -u -i iom- wa- ia balusu kali -sapo hapo sle -ne iowe i -ni
+# text_en = Then I will sit in the plane, go and land at Wewak, and sit again in a big plane.
+# doc_id = 141116_T46bis
+# doc_title = My trip back home
+1	inami	inami	CCONJ	correlconn	_	_	_	_	Gloss=then
+2	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+3	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+4	sele	sele_1	VERB	v	_	_	_	_	Gloss=to_sit
+5	-nei	-nei	VERB	v	Tense=Fut	_	_	_	Gloss=-FUT
+6	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+7	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_be
+8	-ni	-ni_2	AUX	v:(Tense)	Tense=Fut	_	_	_	Gloss=-FUT.S1S
+9	-i	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+10	wewek	wiwa	PROPN	PN_toponyme	_	_	_	_	Gloss=Wewak
+11	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+12	io	io	VERB	v	_	_	_	_	Gloss=go_down
+13	fau	fao	VERB	v	_	_	_	_	Gloss=to_fall_down
+14	-u	-u	AUX	v:(Tense2)	_	_	_	_	Gloss=-?
+15	-i	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+16	iom-	_	_	_	_	_	_	_	_
+17	wa-	wa-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=back-
+18	ia	ia_1	VERB	v	_	_	_	_	Gloss=to_go
+19	balusu	balusi	NOUN	n	_	_	_	_	Gloss=plane
+20	kali	kali_2	ADJ	adj	_	_	_	_	Gloss=big
+21	-sapo	-sapo	DET	n:(NounGenderNumber)	NounClass=Tww9|Number=Sing	_	_	_	Gloss=-IX.SG
+22	hapo	hapo	NOUN	n	_	_	_	_	Gloss=time
+23	sle	sele_1	VERB	v	_	_	_	_	Gloss=to_sit
+24	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+25	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+26	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+27	-ni	-ni_2	AUX	v:(Tense)	Tense=Fut	_	_	_	Gloss=-FUT.S1S
+
+# sent_id = 1.7
+# text = opsono -ma kali me maamo iowe i tete -ni
+# text_en = You will arrive close to your village.
+# doc_id = 141116_T46bis
+# doc_title = My trip back home
+1	opsono	opsono	NOUN	n	_	_	_	_	Gloss=village
+2	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+3	kali	kali_2	ADJ	adj	_	_	_	_	Gloss=big
+4	me	me_1	DET	poss	Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	_	_	_	Gloss=2SGM.POSS
+5	maamo	maamoa	ADJ	adj	_	_	_	_	Gloss=close
+6	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+7	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+8	tete	teto	VERB	v	_	_	_	_	Gloss=to_stand_up
+9	-ni	-ni_2	AUX	v:(Tense)	Tense=Fut	_	_	_	Gloss=-FUT.S1S
+
+# sent_id = 1.8
+# text = howaowa teta ali mle -noma iowe i tete -ni
+# text_en = You will stay with all your family.
+# doc_id = 141116_T46bis
+# doc_title = My trip back home
+1	howaowa	howaowa	NOUN	n	_	_	_	_	Gloss=all_family
+2	teta	tita	NOUN	n	_	_	_	_	Gloss=family
+3	ali	ali_3	PRON	pers	PronType=Prs	_	_	_	Gloss=all
+4	m	me_6	PRON	_	PronType=Dem	_	_	_	Gloss=DEM1
+5	-le	-le_4	X	_	Number=Plur	_	_	_	Gloss=-PL
+6	-noma	-noma	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+7	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+8	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+9	tete	teto	VERB	v	_	_	_	_	Gloss=to_stand_up
+10	-ni	-ni_2	AUX	v:(Aspect/Modality2)	Tense=Fut	_	_	_	Gloss=-?FUT.PROX

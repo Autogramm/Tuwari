@@ -1,0 +1,315 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1.1
+# text = ta siomo -lo holua -na ano
+# text_en = We were working.
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+2	siomo	siomo	NOUN	n	_	_	_	_	Gloss=work
+3	-lo	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+4	holua	holua	VERB	v	_	_	_	_	Gloss=to_work
+5	-na	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+6	ano	ano_2	VERB	v	_	_	_	_	Gloss=to_make
+
+# sent_id = 1.2
+# text = meinami ta mamo sosua -we meli -o me iai -ne o -we tetaola -io meio ta fiha -ti iasane -no
+# text_en = Then we say to uncle Joshua : "cross the river and ask your son [i.e. Sylvain Loiseau]: 'can you help us?'".
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	meinami	meinami	ADV	adv	_	_	_	_	Gloss=after
+2	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+3	mamo	mamo_1	NOUN	n	_	_	_	_	Gloss=brother_of_the_mother
+4	sosua	sosua	PROPN	PN	_	_	_	_	Gloss=Joshua
+5	-we	-we_1	DET	n:(NounGenderNumber)	Gender=Masc|NounClass=Tww1|Number=Sing	_	_	_	Gloss=-M.SG
+6	meli	meli_1	VERB	v	_	_	_	_	Gloss=to_talk
+7	-o	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+8	me	me_1	PRON	pers	Gender=Masc|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=2SG.M
+9	iai	iai	VERB	v	_	_	_	_	Gloss=to_go
+10	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+11	o	o_3	NOUN	n	_	_	_	_	Gloss=child
+12	-we	-we_1	DET	n:(NounGenderNumber)	Gender=Masc|NounClass=Tww1|Number=Sing	_	_	_	Gloss=-M.SG
+13	tetaola	tetaolei	VERB	v	_	_	_	_	Gloss=to_ask
+14	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+15	meio	mei	X	?	Mood=Qot	_	_	_	Gloss=QUOTED_SPEECH
+16	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+17	fiha	fia	ADJ	adj	_	_	_	_	Gloss=able
+18	-ti	-ti_2	X	?	_	_	_	_	Gloss=-?
+19	iasane	iasane	VERB	v	_	_	_	_	Gloss=to_help
+20	-no	-no_1	AUX	v:(Mood)	Case=Int	_	_	_	Gloss=-Q
+
+# sent_id = 1.3
+# text = o -we mi- tiau -ne meli -o peisa osaalehei
+# text_en = The son stand up and said "allright!
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	o	o_3	NOUN	n	_	_	_	_	Gloss=child
+2	-we	-we_1	DET	n:(NounGenderNumber)	Gender=Masc|NounClass=Tww1|Number=Sing	_	_	_	Gloss=-M.SG
+3	mi-	mi-	AUX	v:(dir-)	_	_	_	_	Gloss=up-
+4	tiau	tiao	VERB	v	_	_	_	_	Gloss=to_stand_up_wake_up
+5	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+6	meli	meli_1	VERB	v	_	_	_	_	Gloss=to_talk
+7	-o	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+8	peisa	peisa	ADV	adv	_	_	_	_	Gloss=good
+9	osaalehei	osaaleei	ADJ	adj	_	_	_	_	Gloss=very_good?
+
+# sent_id = 1.4
+# text = misi -nle -s -le ne nua -ne teai name
+# text_en = take this rice and bring it to the other side of the river.
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	misi	misi_1	NOUN	n  (mi)	_	_	_	_	Gloss=rice
+2	-nle	-nle	PRON	DET	Number=Plur|PronType=Dem	_	_	_	Gloss=-DEM2:PL
+3	-s	se_4	PRON	DET	Definite=Ind|PronType=Dem	_	_	_	Gloss=DEM3:INDEF_QUANTITY
+4	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+5	ne	ne_1	VERB	v	_	_	_	_	Gloss=to_catch
+6	nua	nua	VERB	v	_	_	_	_	Gloss=to_carry
+7	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+8	teai	taai_1	ADV	adv	_	_	_	_	Gloss=other_side
+9	name	name	NOUN	n	_	_	_	_	Gloss=thing (namele, namene)
+
+# sent_id = 1.5
+# text = ta misi -ne mamo -nue misi -nle mo- nua -ne miʔa
+# text_en =  ‎‎we took his rice and bring it to the other side.
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+2	misi	misi_1	NOUN	n  (mi)	_	_	_	_	Gloss=rice
+3	-ne	-ne_5	PRON	X	PronType=Dem	_	_	_	Gloss=-DEM2.CONTRAST
+4	mamo	mamo_1	NOUN	n	_	_	_	_	Gloss=brother_of_the_mother
+5	-nue	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+6	misi	misi_1	NOUN	n  (mi)	_	_	_	_	Gloss=rice
+7	-nle	-nle	PRON	DET	Number=Plur|PronType=Dem	_	_	_	Gloss=-DEM2:PL
+8	mo-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+9	nua	nua	VERB	v	_	_	_	_	Gloss=to_carry
+10	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+11	miʔa	miʔa	VERB	v	_	_	_	_	Gloss=to_cross
+
+# sent_id = 1.6
+# text = salus -we ife -ma mei- i -tu -wo totu -wo maopla aple hao -se pesia i -io
+# text_en = Salus  leave us and went upriver in order to catch some fish.
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	salus	salus	PROPN	PN	_	_	_	_	Gloss=Salus
+2	-we	-we_1	DET	n:(NounGenderNumber)	Gender=Masc|NounClass=Tww1|Number=Sing	_	_	_	Gloss=-M.SG
+3	ife	ife	ADV	adv	_	_	_	_	Gloss=upstream
+4	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+5	mei-	mei-	AUX	v:Tout	_	_	_	_	Gloss=to_go_up(stream)-
+6	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+7	-tu	-tu	DET	Noun	_	_	_	_	Gloss=?
+8	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+9	totu	totu_2	VERB	v	_	_	_	_	Gloss=leave?
+10	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+11	maopla	_	_	_	_	_	_	_	_
+12	aple	aplo_1	VERB	v	_	_	_	_	Gloss=to_finish
+13	hao	hao	NOUN	n  (fo)	_	_	_	_	Gloss=fish
+14	-se	-se_3	DET	Noun	_	_	_	_	Gloss=-?(inside/away/flesh?)
+15	pesia	pesia	VERB	v	_	_	_	_	Gloss=to_fetch
+16	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+17	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.7
+# text = me- neeisei ta owa -nue iale iou -mwii tia -io
+# text_en = we call the boy "come!"
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	me-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+2	neeisei	neheisa	VERB	v	_	_	_	_	Gloss=to_buy
+3	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+4	owa	owe	NOUN	n	_	_	_	_	Gloss=man
+5	-nue	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+6	iale	iale_1	NOUN	n	_	_	_	_	Gloss=talk
+7	iou	iowa	VERB	v	_	_	_	_	Gloss=to_sing_a
+8	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+9	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+10	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+11	tia	tea	VERB	v	_	_	_	_	Gloss=to_kam
+12	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.8
+# text = ta honu iha -he sau -le i -nai -mwii -na si homo -le holuwa -nai -mwii -na
+# text_en = we will discus here and then we will work.
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+2	honu	honu	ADV	adv	Case=Loc	_	_	_	Gloss=LOC:here;there
+3	iha	ia_2	NOUN	n  (he)	_	_	_	_	Gloss=speech
+4	-he	-he_1	DET	n:(NounGenderNumber)	NounClass=Tww4|Number=Sing	_	_	_	Gloss=-IV.SG
+5	sau	sau	NOUN	n	_	_	_	_	Gloss=thing
+6	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+7	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_do
+8	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+9	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+10	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+11	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+12	-na	-na_1	AUX	v:(Aspect/Modality2)	_	_	_	_	Gloss=-?INTSFIER?
+13	si	si_2	NOUN	n  (fo)	_	_	_	_	Gloss=bush_ground
+14	homo	homo	ADV	adv	_	_	_	_	Gloss=inside(???)
+15	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+16	holuwa	holua	VERB	v	_	_	_	_	Gloss=to_work
+17	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+18	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+19	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+20	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+21	-na	-na_1	AUX	v:(Aspect/Modality2)	_	_	_	_	Gloss=-?INTSFIER?
+
+# sent_id = 1.9
+# text = mwe miʔa se si honu u -to tete ta meli miʔa -ne tete -mo salo -mo ta -lo i -ne ia -ha -i sao -le a -io
+# text_en = (?) he crossed the river and talk with us.
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+2	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+3	miʔa	miʔa	VERB	v	_	_	_	_	Gloss=to_cross
+4	se	se_2	VERB	v	_	_	_	_	Gloss=to_go
+5	si	si_2	NOUN	n  (fo)	_	_	_	_	Gloss=bush_ground
+6	honu	honu	ADV	adv	Case=Loc	_	_	_	Gloss=LOC:here;there
+7	u	u_1	NOUN	n  (tanoi)tano	_	_	_	_	Gloss=water
+8	-to	-tano	DET	n:(NounGenderNumber)	NounClass=Tww10|Number=Sing	_	_	_	Gloss=-X.SG
+9	tete	teto	VERB	v	_	_	_	_	Gloss=kamap_sanap
+10	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+11	meli	meli_1	VERB	v	_	_	_	_	Gloss=to_talk
+12	miʔa	miʔa	VERB	v	_	_	_	_	Gloss=to_cross
+13	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+14	tete	teto	VERB	v	_	_	_	_	Gloss=kamap_sanap
+15	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+16	salo	_	_	_	_	_	_	_	_
+17	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+18	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+19	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+20	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+21	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+22	ia	ia_2	NOUN	n  (he)	_	_	_	_	Gloss=speech
+23	-ha	-he_1	DET	n:(NounGenderNumber)	NounClass=Tww4|Number=Sing	_	_	_	Gloss=-IV.SG
+24	-i	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+25	sao	sau	NOUN	n	_	_	_	_	Gloss=thing
+26	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+27	a	a_4	VERB	v	_	_	_	_	Gloss=to_make
+28	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.10
+# text = minami sla -a -ne mwe me tetaulei -i
+# text_en = _
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	minami	minami	ADV	adv	_	_	_	_	Gloss=then
+2	sla	sele_1	VERB	v	_	_	_	_	Gloss=to_sit
+3	-a	-a_1	AUX	v:(Tense)	_	_	_	_	Gloss=-?
+4	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+5	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+6	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+7	me	me_1	PRON	pers	Gender=Masc|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=2SG.M
+8	tetaulei	tetaolei	VERB	v	_	_	_	_	Gloss=to_ask
+9	-i	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.11
+# text = hao -se faifihalo -no
+# text_en = "do you have enough fish?"
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	hao	hao	NOUN	n  (fo)	_	_	_	_	Gloss=fish
+2	-se	-se_3	DET	Noun	_	_	_	_	Gloss=-?(inside/away/flesh?)
+3	faifihalo	faifihalo	VERB	v	_	_	_	_	Gloss=enough
+4	-no	-no_1	AUX	v:(Mood)	Case=Int	_	_	_	Gloss=-Q
+
+# sent_id = 1.12
+# text = a meli waai -he -o mwe mali uwe
+# text_en = I said "we have one", he said: "no,
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	meli	meli_1	VERB	v	_	_	_	_	Gloss=to_talk
+3	waai	waai_1	NUM	cardnum	_	_	_	_	Gloss=one
+4	-he	-he_1	DET	n:(NounGenderNumber)	NounClass=Tww4|Number=Sing	_	_	_	Gloss=-IV.SG
+5	-o	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+6	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+7	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+8	mali	mali	VERB	v	_	_	_	_	Gloss=to_talk
+9	uwe	uwe_3	ADV	adv	_	_	_	_	Gloss=no
+
+# sent_id = 1.13
+# text = waai -nehe
+# text_en = this one,
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	waai	waai_1	NUM	cardnum	_	_	_	_	Gloss=one
+2	-nehe	-nehe	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM.PROX(DEM2:DEM4)
+
+# sent_id = 1.14
+# text = ta tlotlo f- le -nai -ne lo -wo
+# text_en = we will not be filled up. (or: this one will not make us filled up).
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+2	tlotlo	tlotlo	ADV	ideo	AdvType=Ideoph	_	_	_	Gloss=to_be_full
+3	f-	fe-	AUX	v:(Polarity)	Polarity=NEG	_	_	_	Gloss=NEG-
+4	le	lo_2	VERB	v	_	_	_	_	Gloss=to_be
+5	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+6	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+7	lo	lo_2	VERB	v	_	_	_	_	Gloss=to_be
+8	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.15
+# text = mine mwe nofua ieniso me- tafi -ne menia io Daniel -we m- i -ne hao -se -mi mu- nua -na
+# text_en = ?
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	mine	meinami	ADV	adv	_	_	_	_	Gloss=after
+2	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+3	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+4	nofua	nofua	NOUN	n	_	_	_	_	Gloss=notebook
+5	ieniso	ieniso	NUM	cardnum	_	_	_	_	Gloss=ten
+6	me-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+7	tafi	tefi	VERB	v	_	_	_	_	Gloss=to_push_to_pull
+8	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+9	menia	menia	NOUN	n  (fo)	_	_	_	_	Gloss=clothes
+10	io	io	VERB	v	_	_	_	_	Gloss=to_come
+11	Daniel	daniel	PROPN	PN	_	_	_	_	Gloss=Daniel
+12	-we	-we_1	DET	n:(NounGenderNumber)	Gender=Masc|NounClass=Tww1|Number=Sing	_	_	_	Gloss=-M.SG
+13	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+14	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+15	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+16	hao	hao	NOUN	n  (fo)	_	_	_	_	Gloss=fish
+17	-se	-se_3	DET	Noun	_	_	_	_	Gloss=-?(inside/away/flesh?)
+18	-mi	-mi_3	DET	Noun	_	_	_	_	Gloss=-?
+19	mu-	mu-	AUX	v:(dir-)	_	_	_	_	Gloss=up-
+20	nua	nua	VERB	v	_	_	_	_	Gloss=to_carry
+21	-na	-na_1	AUX	v:(Aspect/Modality2)	_	_	_	_	Gloss=-?INTSFIER?
+
+# sent_id = 1.16
+# text = i -ne ta otue -nle o -wa tia o -wa -nwo -lo ta honu ia -he -i sau -lei ia -he -i sao peisa peisa -le i -nai -mwii -na
+# text_en = Then we eat that food (?), and we discussed there, and we were (?) happy (?).
+# doc_id = 141126_04_T59
+# doc_title = Let's ask the white man for some food
+1	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+2	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+3	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+4	otue	otue	NOUN	n	_	_	_	_	Gloss=food
+5	-nle	-nle	PRON	n:(NounGenderNumber)	Number=Plur|PronType=Dem	_	_	_	Gloss=-DEM2:PL
+6	o	o_4	VERB	v	_	_	_	_	Gloss=to_eat
+7	-wa	-ia_2	AUX	v:(Aspect/Modality2)	Tense=Past	_	_	_	Gloss=-PST_also?
+8	tia	tia_1	VERB	v	_	_	_	_	Gloss=to_sit
+9	o	o_4	VERB	v	_	_	_	_	Gloss=to_eat
+10	-wa	-ia_2	AUX	v:(Aspect/Modality2)	Tense=Past	_	_	_	Gloss=-PST_also?
+11	-nwo	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+12	-lo	-lo_4	AUX	v:(Tense)	_	_	_	_	Gloss=-?
+13	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+14	honu	honu	ADV	adv	Case=Loc	_	_	_	Gloss=LOC:here;there
+15	ia	ia_2	NOUN	n  (he)	_	_	_	_	Gloss=speech
+16	-he	-he_1	DET	n:(NounGenderNumber)	NounClass=Tww4|Number=Sing	_	_	_	Gloss=-IV.SG
+17	-i	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+18	sau	sau	NOUN	n	_	_	_	_	Gloss=thing
+19	-le	-le_3	PRON	_	Number=Plur	_	_	_	Gloss=-PL
+20	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+21	ia	ia_2	NOUN	n  (he)	_	_	_	_	Gloss=speech
+22	-he	-he_1	DET	n:(NounGenderNumber)	NounClass=Tww4|Number=Sing	_	_	_	Gloss=-IV.SG
+23	-i	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+24	sao	sau	NOUN	n	_	_	_	_	Gloss=thing
+25	peisa	peisa	ADV	adv	_	_	_	_	Gloss=good
+26	peisa	peisa	ADV	adv	_	_	_	_	Gloss=good
+27	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+28	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_be
+29	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+30	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+31	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+32	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+33	-na	-na_1	AUX	v:(Aspect/Modality2)	_	_	_	_	Gloss=-?INTSFIER?

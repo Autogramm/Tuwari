@@ -1,0 +1,462 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1
+# text = me peisa to- u -no
+# text_en = How are you (M) [you (M) sleep well?]/yu (M) olsem wanem?
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	me	me_1	PRON	pers	Gender=Masc|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=2SG.M
+2	peisa	peisa	ADV	adv	_	_	_	_	Gloss=good
+3	to-	to-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+4	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+5	-no	-no_1	AUX	v:(Mood)	Case=Int	_	_	_	Gloss=-Q
+
+# sent_id = 2
+# text = he peisa to- u -no
+# text_en = How are you (F) [you (F) sleep well?]/yu (F) olsem wanem?
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	he	he_2	PRON	pers	Gender=Fem|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=2SG.F
+2	peisa	peisa	ADV	adv	_	_	_	_	Gloss=good
+3	to-	to-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+4	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+5	-no	-no_1	AUX	v:(Mood)	Case=Int	_	_	_	Gloss=-Q
+
+# sent_id = 3
+# text = a fali peisa u -wo
+# text_en = I'm fine [I sleep well]/ mi stap gut!
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	fali	fali	PART	v	Aspect=Compl	_	_	_	Gloss=COMPL
+3	peisa	peisa	ADV	adv	_	_	_	_	Gloss=good
+4	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+5	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 4
+# text = a fali peisa u -mwii
+# text_en = I (M) 'm fine [I (M) sleep well]
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	fali	fali	PART	v	Aspect=Compl	_	_	_	Gloss=COMPL
+3	peisa	peisa	ADV	adv	_	_	_	_	Gloss=good
+4	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+5	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+6	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+7	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 5
+# text = a peisa f- u -ne -io
+# text_en = I didn't sleep well
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	peisa	peisa	ADV	adv	_	_	_	_	Gloss=good
+3	f-	fe-	AUX	v:(Polarity)	Polarity=NEG	_	_	_	Gloss=NEG-
+4	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+5	-ne	-ne_9	AUX	v:(Polarity2)	Polarity=NEG	_	_	_	Gloss=-NEG2
+6	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 6
+# text = a kokuwa u -wo
+# text_en = I sleep bad.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	kokuwa	kokua	ADJ	adj	_	_	_	_	Gloss=bad
+3	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+4	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 7
+# text = me peisa m- u -ne
+# text_en = You sleep well.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	me	me_1	PRON	pers	Gender=Masc|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=2SG.M
+2	peisa	peisa	ADV	adv	_	_	_	_	Gloss=good
+3	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+4	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+5	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+
+# sent_id = 8
+# text = a peisa m- u -ne a -mwii
+# text_en = I (M) 'm fine [I (M) sleep well and came]
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	peisa	peisa	ADV	adv	_	_	_	_	Gloss=good
+3	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+4	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+5	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+6	a	a_1	VERB	v	_	_	_	_	Gloss=to_come
+7	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+8	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+9	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 9
+# text = a so -le u -lo -wo u -lo -mwii
+# text_en = I did sleep well.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	so	so_1	NOUN	n  (he)	_	_	_	_	Gloss=time
+3	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+4	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+5	-lo	-lo_4	AUX	v:(Tense)	Tense=Past	_	_	_	Gloss=-PST
+6	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+7	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+8	-lo	-lo_4	AUX	v:(Tense)	Tense=Past	_	_	_	Gloss=-PST
+9	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+10	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+11	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 10
+# text = me fali te -mso u -no
+# text_en = Are you (M) married? /(You married pinis?)
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	me	me_1	PRON	pers	Gender=Masc|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=2SG.M
+2	fali	fali	PART	v	Aspect=Compl	_	_	_	Gloss=COMPL
+3	te	te_1	NOUN	n	_	_	_	_	Gloss=woman->wife?
+4	-mso	-mso	PRON	n:(NounGenderNumber)	Gender=Fem|Number=Dual|PronType=Dem	_	_	_	Gloss=-DEM1:DU.F
+5	u	u_2	VERB	v	_	_	_	_	Gloss=to_mary
+6	-no	-no_1	AUX	v:(Mood)	Case=Int	_	_	_	Gloss=-Q
+
+# sent_id = 11
+# text = a fali te -mso u -wo
+# text_en = I have married a wife.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	fali	fali	PART	v	Aspect=Compl	_	_	_	Gloss=COMPL
+3	te	te_1	NOUN	n	_	_	_	_	Gloss=woman->wife?
+4	-mso	-mso	PRON	n:(NounGenderNumber)	Gender=Fem|Number=Dual|PronType=Dem	_	_	_	Gloss=-DEM1:DU.F
+5	u	u_2	VERB	v	_	_	_	_	Gloss=to_mary
+6	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 12
+# text = he fali to -mwo u -no
+# text_en = Are you (F) married?
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	he	he_2	PRON	pers	Gender=Fem|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=2SG.F
+2	fali	fali	PART	v	Aspect=Compl	_	_	_	Gloss=COMPL
+3	to	to_1	NOUN	n	_	_	_	_	Gloss=man
+4	-mwo	-mwo	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Dual|PronType=Dem	_	_	_	Gloss=-DEM1:DU.M
+5	u	u_2	VERB	v	_	_	_	_	Gloss=to_mary
+6	-no	-no_1	AUX	v:(Mood)	Case=Int	_	_	_	Gloss=-Q
+
+# sent_id = 13
+# text = a fali to -mwo u -wo
+# text_en = _
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	fali	fali	PART	v	Aspect=Compl	_	_	_	Gloss=COMPL
+3	to	to_1	NOUN	n	_	_	_	_	Gloss=man
+4	-mwo	-mwo	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Dual|PronType=Dem	_	_	_	Gloss=-DEM1:DU.M
+5	u	u_2	VERB	v	_	_	_	_	Gloss=to_mary
+6	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 14
+# text = a te -mse -le a -mwii
+# text_en = I came with (have married?) my wife.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	te	te_1	NOUN	n	_	_	_	_	Gloss=woman->wife?
+3	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+4	-se	-se_2	X	_	Gender=Fem|Number=Sing	_	_	_	Gloss=-F.SG
+5	-le	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+6	a	u_2	VERB	v	_	_	_	_	Gloss=to_mary
+7	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+8	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+9	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 15
+# text = a tuafe te -mse u -nai -mwiio u -lo -mwii
+# text_en = I will marry a wife later.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	tuafe	tuafe	ADV	adv	_	_	_	_	Gloss=behind
+3	te	te_1	NOUN	n	_	_	_	_	Gloss=woman->wife?
+4	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+5	-se	-se_2	X	_	Gender=Fem|Number=Sing	_	_	_	Gloss=-F.SG
+6	u	u_2	VERB	v	_	_	_	_	Gloss=to_mary
+7	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+8	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+9	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+10	-io	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+11	u	u_2	VERB	v	_	_	_	_	Gloss=to_sleep
+12	-lo	-lo_4	AUX	v:(Tense)	Tense=Past	_	_	_	Gloss=-PST
+13	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+14	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+15	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 16
+# text = me tetono nalolo sle -lo -no
+# text_en = How many children do you have?
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	me	me_1	DET	poss	Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	_	_	_	Gloss=2SGM.POSS
+2	tetono	tetono	NOUN	n	_	_	_	_	Gloss=children
+3	nalolo	nalolo	PRON	interrog	PronType=Int	_	_	_	Gloss=how_much
+4	sle	sele_1	VERB	v	_	_	_	_	Gloss=there_is
+5	-lo	-lo_2	AUX	AUX	VerbType=Cop	_	_	_	Gloss=-COP?
+6	-no	-no_1	AUX	v:(Mood)	Case=Int	_	_	_	Gloss=-Q
+
+# sent_id = 17
+# text = a o selisa -io
+# text_en = I have three children
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	DET	poss	Number=Sing|Person=1|Poss=Yes|PronType=Prs	_	_	_	Gloss=1SG.POSS
+2	o	o_3	NOUN	n	_	_	_	_	Gloss=child
+3	selisa	selisa	NUM	cardnum	_	_	_	_	Gloss=three
+4	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 18
+# text = me o nalolo sle -lo -no
+# text_en = How many houses do you have?
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	me	me_1	PRON	pers	Gender=Masc|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=2SG.M
+2	o	o_2	NOUN	n  (sapoi)	_	_	_	_	Gloss=house
+3	nalolo	nalolo	PRON	interrog	PronType=Int	_	_	_	Gloss=how_much
+4	sle	sele_1	VERB	v	_	_	_	_	Gloss=there_is
+5	-lo	-lo_2	AUX	AUX	VerbType=Cop	_	_	_	Gloss=-COP?
+6	-no	-no_1	AUX	v:(Mood)	Case=Int	_	_	_	Gloss=-Q
+
+# sent_id = 19
+# text = a o wai -sapoi -io
+# text_en = I have one house.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	o	o_2	NOUN	n  (sapoi)	_	_	_	_	Gloss=house
+3	wai	wai	NUM	cardnum	_	_	_	_	Gloss=one
+4	-sapoi	-sapo	DET	n:(NounGenderNumber)	NounClass=Tww9|Number=Sing	_	_	_	Gloss=-IX.SG
+5	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 20
+# text = me hei -me nomali -o
+# text_en = What is your name ?
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	me	me_1	DET	poss	Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	_	_	_	Gloss=2SGM.POSS
+2	hei	hei_2	NOUN	n  (mo)	_	_	_	_	Gloss=name
+3	-me	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+4	nomali	nomali	PRON	interrog	PronType=Int	_	_	_	Gloss=wanem?
+5	-o	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 21
+# text = hei a -mo sali -wi -io
+# text_en = My name is Sali.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	hei	hei_2	NOUN	n  (mo)	_	_	_	_	Gloss=name
+2	a	a_2	DET	poss	Number=Sing|Person=1|Poss=Yes|PronType=Prs	_	_	_	Gloss=1SG.POSS
+3	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+4	sali	sali_1	PROPN	PN	_	_	_	_	Gloss=Sali
+5	-wi	-we_1	DET	n:(NounGenderNumber)	Gender=Masc|NounClass=Tww1|Number=Sing	_	_	_	Gloss=-M.SG
+6	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 22
+# text = a hei -mo sylvain -wi -io
+# text_en = My name is Sylvain.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	DET	poss	Number=Sing|Person=1|Poss=Yes|PronType=Prs	_	_	_	Gloss=1SG.POSS
+2	hei	hei_2	NOUN	n  (mo)	_	_	_	_	Gloss=name
+3	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+4	sylvain	sylvain	PROPN	PN	_	_	_	_	Gloss=Sylvain
+5	-wi	-we_1	DET	n:(NounGenderNumber)	Gender=Masc|NounClass=Tww1|Number=Sing	_	_	_	Gloss=-M.SG
+6	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 23
+# text = a hei -mo sali -wi -io
+# text_en = My name is Sali.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	DET	poss	Number=Sing|Person=1|Poss=Yes|PronType=Prs	_	_	_	Gloss=1SG.POSS
+2	hei	hei_2	NOUN	n  (mo)	_	_	_	_	Gloss=name
+3	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+4	sali	sali_1	PROPN	PN	_	_	_	_	Gloss=Sali
+5	-wi	-we_1	DET	n:(NounGenderNumber)	Gender=Masc|NounClass=Tww1|Number=Sing	_	_	_	Gloss=-M.SG
+6	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 24
+# text = me -ne o -n -we hei -mo mali -io
+# text_en = Tell me the name of your son.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	me	me_1	PRON	pers	Gender=Masc|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=2SG.M
+2	-ne	-ne_2	ADP	Possessive pronoun	_	_	_	_	Gloss=-POSSor
+3	o	o_3	NOUN	n	_	_	_	_	Gloss=child
+4	-n	-no_2	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM2
+5	-we	-we_1	DET	n:(NounGenderNumber)	Gender=Masc|NounClass=Tww1|Number=Sing	_	_	_	Gloss=-M.SG
+6	hei	hei_2	NOUN	n  (mo)	_	_	_	_	Gloss=name
+7	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+8	mali	mali	VERB	v	_	_	_	_	Gloss=to_talk
+9	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 25
+# text = me -ne ule -n -se hei -mo mali -io
+# text_en = Tell me the name of your daughter.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	me	me_1	PRON	pers	Gender=Masc|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=2SG.M
+2	-ne	-ne_2	ADP	Possessive pronoun	_	_	_	_	Gloss=-POSSor
+3	ule	ule	NOUN	n	_	_	_	_	Gloss=little_girl
+4	-n	-no_2	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM2
+5	-se	-se_2	DET	n:(NounGenderNumber)	Gender=Fem|NounClass=Tww2|Number=Sing	_	_	_	Gloss=-F.SG
+6	hei	hei_2	NOUN	n  (mo)	_	_	_	_	Gloss=name
+7	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+8	mali	mali	VERB	v	_	_	_	_	Gloss=to_talk
+9	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 26
+# text = a ule -n -se hei -mo soslin
+# text_en = This daughter of mine is called Soslin.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	DET	poss	Number=Sing|Person=1|Poss=Yes|PronType=Prs	_	_	_	Gloss=1SG.POSS
+2	ule	ule	NOUN	n	_	_	_	_	Gloss=little_girl
+3	-n	-no_2	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM2
+4	-se	-se_2	DET	n:(NounGenderNumber)	Gender=Fem|NounClass=Tww2|Number=Sing	_	_	_	Gloss=-F.SG
+5	hei	hei_2	NOUN	n  (mo)	_	_	_	_	Gloss=name
+6	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+7	soslin	soslin	PROPN	PN	_	_	_	_	Gloss=Soslin
+
+# sent_id = 27
+# text = a o -n -we hei -mo neto
+# text_en = This son of mine is called Soslin.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	a	a_2	DET	poss	Number=Sing|Person=1|Poss=Yes|PronType=Prs	_	_	_	Gloss=1SG.POSS
+2	o	o_2	NOUN	n  (sapoi)	_	_	_	_	Gloss=house
+3	-n	-no_2	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM2
+4	-we	-we_1	DET	n:(NounGenderNumber)	Gender=Masc|NounClass=Tww1|Number=Sing	_	_	_	Gloss=-M.SG
+5	hei	hei_2	NOUN	n  (mo)	_	_	_	_	Gloss=name
+6	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+7	neto	neto	PROPN	PN	_	_	_	_	Gloss=Neto
+
+# sent_id = 28
+# text = me peisa m- u -ne wa- ia -mwiio
+# text_en = You're fine [You're fine and came.]
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	me	me_1	PRON	pers	Gender=Masc|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=2SG.M
+2	peisa	peisa	ADV	adv	_	_	_	_	Gloss=good
+3	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+4	u	u_2	VERB	v	_	_	_	_	Gloss=to_stay
+5	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+6	wa-	wa-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=back-
+7	ia	ia_1	VERB	v	_	_	_	_	Gloss=to_go
+8	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+9	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+10	-io	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 29
+# text = me te -nse tau -tano pase -ma u se -se -i -no
+# text_en = Did you (M) marry a wife from Tau?
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	me	me_1	PRON	pers	Gender=Masc|Number=Sing|Person=2|PronType=Prs	_	_	_	Gloss=2SG.M
+2	te	te_1	NOUN	n	_	_	_	_	Gloss=woman->wife?
+3	-nse	-nse	PRON	n:(NounGenderNumber)	Gender=Fem|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.F
+4	tau	tau	PROPN	PN_hydronym	_	_	_	_	Gloss=Tau
+5	-tano	-tano	DET	n:(NounGenderNumber)	NounClass=Tww10|Number=Sing	_	_	_	Gloss=-X.SG
+6	pase	pase	NOUN	n	_	_	_	_	Gloss=sand
+7	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+8	u	u_2	VERB	v	_	_	_	_	Gloss=to_mary
+9	se	se_4	PRON	AUX	Definite=Ind|PronType=Dem	_	_	_	Gloss=DEM3.INDEF.Q
+10	-se	-se_2	DET	n:(NounGenderNumber)	Gender=Fem|NounClass=Tww2|Number=Sing	_	_	_	Gloss=-F.SG
+11	-i	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+12	-no	-no_1	AUX	v:(Mood)	Case=Int	_	_	_	Gloss=-Q
+
+# sent_id = 30
+# text = mese sumwari -ma u -mse u -mwe -io
+# text_en = I (M) married a wife from Sumwari.
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	mese	mese_2	NOUN	n	_	_	_	_	Gloss=woman
+2	sumwari	sumwari	PROPN	PN_toponyme	_	_	_	_	Gloss=Sumwari
+3	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+4	u	u_3	VERB	v	_	_	_	_	Gloss=COP_to_belong_to_a_place
+5	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+6	-se	-se_2	X	_	Gender=Fem|Number=Sing	_	_	_	Gloss=-F.SG
+7	u	u_2	VERB	v	_	_	_	_	Gloss=to_mary
+8	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+9	-we	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+10	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 31
+# text = he to -nwe naswaia u -s -we u -no
+# text_en = You (F) married a man from where?
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	he	he_2	DET	poss	Number=Sing|Person=2|Poss=Yes|PronType=Prs	_	_	_	Gloss=2SG.F.POSS
+2	to	to_1	NOUN	n	_	_	_	_	Gloss=man
+3	-nwe	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+4	naswaia	naswaia	PRON	interrog	PronType=Int	_	_	_	Gloss=where
+5	u	u_3	VERB	v	_	_	_	_	Gloss=COP_to_belong_to_a_place
+6	-s	se_4	PRON	AUX	Definite=Ind|PronType=Dem	_	_	_	Gloss=DEM3.INDEF.Q
+7	-we	-we_5	AUX	v:Tout	_	_	_	_	Gloss=-M.SG
+8	u	u_2	VERB	v	_	_	_	_	Gloss=to_mary
+9	-no	-no_1	AUX	v:(Mood)	Case=Int	_	_	_	Gloss=-Q
+
+# sent_id = 32
+# text = he to isai -ma u -mwe u -no
+# text_en = Did you (F) married a man from Ok Isaï?
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	he	he_2	DET	poss	Number=Sing|Person=2|Poss=Yes|PronType=Prs	_	_	_	Gloss=2SG.F.POSS
+2	to	to_1	NOUN	n	_	_	_	_	Gloss=man
+3	isai	isai	PROPN	PN_toponyme	_	_	_	_	Gloss=Ok Isaï
+4	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+5	u	u_3	VERB	v	_	_	_	_	Gloss=COP_to_belong_to_a_place
+6	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+7	-we	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+8	u	u_2	VERB	v	_	_	_	_	Gloss=to_mary
+9	-no	-no_1	AUX	v:(Mood)	Case=Int	_	_	_	Gloss=-Q
+
+# sent_id = 33
+# text = minima -ale mali -io
+#  = # text_en =
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	minima	minima	X	?	_	_	_	_	Gloss=?
+2	-ale	-ale	ADP	adj>adv	_	_	_	_	DerPos=ADV|Gloss=-ADVLZ|TokenType=DerAff
+3	mali	mali	VERB	v	_	_	_	_	Gloss=to_talk
+4	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 34
+# text = so -nehe
+#  = # text_en =
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	so	so_1	NOUN	n  (he)	_	_	_	_	Gloss=time
+2	-nehe	-nehe	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM.PROX(DEM2:DEM4)
+
+# sent_id = 35
+# text = ia -he -i sao -le i -nai -mwiio ufe upase kali -ma a
+# text_en = / tomora bai storlile antap la bikpla wild sand
+# doc_id = 2014.I.S2
+# doc_title = 2014.I.S2
+1	ia	ia_2	NOUN	n  (he)	_	_	_	_	Gloss=speech
+2	-he	-he_1	DET	n:(NounGenderNumber)	NounClass=Tww4|Number=Sing	_	_	_	Gloss=-IV.SG
+3	-i	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+4	sao	sau	NOUN	n	_	_	_	_	Gloss=thing
+5	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+6	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+7	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	_	_	_	Gloss=-IRR
+8	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+9	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+10	-io	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+11	ufe	ufe	X	?	_	_	_	_	Gloss=?nambis_bush?
+12	upase	upase	NOUN	n  (he)	_	_	_	_	Gloss=sand_bank
+13	kali	kali_2	ADJ	adj	_	_	_	_	Gloss=big
+14	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+15	a	a_1	VERB	v	_	_	_	_	Gloss=to_go

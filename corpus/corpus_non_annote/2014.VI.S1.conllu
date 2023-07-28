@@ -1,0 +1,254 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1
+# text = kali -ni kokua -lo -mo
+# text_en = The car is damaged.
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	kali	kali_1	NOUN	n	_	_	_	_	Gloss=car
+2	-ni	-no_2	PRON	n:(NounGenderNumber)	PronType=Dem	_	_	_	Gloss=-DEM2
+3	kokua	kokua	ADJ	adj	_	_	_	_	Gloss=bad
+4	-lo	-lo_2	AUX	AUX	VerbType=Cop	_	_	_	Gloss=-COP?
+5	-mo	-mo_2	X	v:(GenderNumber)	_	_	_	_	Gloss=?
+
+# sent_id = 2
+# text = to -nwe tu- nono m- os uafle -ne kali -ni miʔamelei
+# text_en = The man, laying underneath, fix the car
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	to	to_1	NOUN	n	_	_	_	_	Gloss=man
+2	-nwe	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+3	tu-	tu-	AUX	v:(dir-)	_	_	_	_	Gloss=under_down-
+4	nono	_	_	_	_	_	_	_	_
+5	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+6	os	usi	ADV	adv	_	_	_	_	Gloss=inside
+7	uafle	waflo	VERB	v	_	_	_	_	Gloss=to_lay
+8	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+9	kali	kali_1	NOUN	n	_	_	_	_	Gloss=car
+10	-ni	-no_2	PRON	n:(NounGenderNumber)	PronType=Dem	_	_	_	Gloss=-DEM2
+11	miʔamelei	miʔamelei	VERB	v	_	_	_	_	Gloss=to_fix
+
+# sent_id = 3
+# text = to -nwe ni lamu -tano m- osesia -ne nofua -fo mia- mla slo -mwii
+# text_en = this man read a book by lamplight [while the light  is on].
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	to	to_1	NOUN	n	_	_	_	_	Gloss=man
+2	-nwe	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+3	ni	ni_1	NOUN	n  (tanoi)tano	_	_	_	_	Gloss=fire
+4	lamu	lamu_1	NOUN	n	_	_	_	_	Gloss=lamp
+5	-tano	-tano	DET	n:(NounGenderNumber)	NounClass=Tww10|Number=Sing	_	_	_	Gloss=-X.SG
+6	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+7	osesia	osisia	VERB	v	_	_	_	_	Gloss=to_light
+8	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+9	nofua	nofua	NOUN	n  (fo)	_	_	_	_	Gloss=book
+10	-fo	-fo	DET	n:(NounGenderNumber)	NounClass=Tww5|Number=Sing	_	_	_	Gloss=-V.SG
+11	mia-	mia-	AUX	v:(dir-)	_	_	_	_	Gloss=down?-
+12	mla	lei_1	VERB	v	_	_	_	_	Gloss=to_look
+13	slo	sele_1	VERB	v	_	_	_	_	Gloss=to_sit
+14	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+15	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+16	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 4
+# text = to -nwe mami tema -fo fo -u -mwii
+# text_en = This man make a fence for the pig.
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	to	to_1	NOUN	n	_	_	_	_	Gloss=man
+2	-nwe	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+3	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+4	tema	tema	NOUN	n  (fo)	_	_	_	_	Gloss=fence
+5	-fo	-fo	DET	n:(NounGenderNumber)	NounClass=Tww5|Number=Sing	_	_	_	Gloss=-V.SG
+6	fo	fo_3	VERB	v	_	_	_	_	Gloss=to_rope
+7	-u	-u	AUX	v:(Tense2)	_	_	_	_	Gloss=-?
+8	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+9	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+10	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 5
+# text = to -nle to -nwe fu kape -lo -le m- otei -lo
+# text_en = these men kill that man with(?) seven stone
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	to	to_1	NOUN	n	_	_	_	_	Gloss=man
+2	-nle	-nle	PRON	DET	Number=Plur|PronType=Dem	_	_	_	Gloss=-DEM2:PL
+3	to	to_1	NOUN	n	_	_	_	_	Gloss=man
+4	-nwe	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+5	fu	fu_1	NOUN	n  (fo)	_	_	_	_	Gloss=stone
+6	kape	kape	NUM	cardnum	_	_	_	_	Gloss=seven
+7	-lo	-lo_3	NOUN	n	Case=Ins	_	_	_	Gloss=-INS
+8	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+9	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+10	otei	otei	VERB	v	_	_	_	_	Gloss=to_fight
+11	-lo	-lo_2	AUX	AUX	VerbType=Cop	_	_	_	Gloss=-COP?
+
+# sent_id = 6
+#  = # text =
+#  = # text_en =
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+
+# sent_id = 7.1
+# text = to -nwe wiise -no -wo tou -mwii
+# text_en = This man cut this sago tree. Once cut this sago tree fall down.
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	to	to_1	NOUN	n	_	_	_	_	Gloss=man
+2	-nwe	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+3	wiise	wiise	NOUN	n  (mo)	_	_	_	_	Gloss=sago
+4	-no	-no_2	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM2
+5	-wo	-io_2	DET	n:Tout	_	_	_	_	Gloss=-FIN_NOUN
+6	tou	tou_1	VERB	v	_	_	_	_	Gloss=to_cut
+7	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+8	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+9	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 7.2
+# text = m- to -nami wiise -no mio- faau
+#  = # text_en =
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+2	to	tou_1	VERB	v	_	_	_	_	Gloss=to_cut
+3	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+4	wiise	wiise	NOUN	n  (mo)	_	_	_	_	Gloss=sago
+5	-no	-no_1	AUX	v:(Mood)	Case=Int	_	_	_	Gloss=-Q
+6	mio-	mio-_1	AUX	v:(dir-)	_	_	_	_	Gloss=down-
+7	faau	fao	VERB	v	_	_	_	_	Gloss=to_fall_down
+
+# sent_id = 7.3
+# text = mio- fau -nami eiso -nle m- a -ne wiise -no o tofu
+# text_en = The man cut a sago tree. After cutting, the tree pull down. Once it pull down, the women come and wash the tree.
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	mio-	mio-_1	AUX	v:(dir-)	_	_	_	_	Gloss=down-
+2	fau	fao	VERB	v	_	_	_	_	Gloss=to_fall_down
+3	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+4	eiso	heiso_1	NOUN	n	_	_	_	_	Gloss=woman
+5	-nle	-nle	PRON	DET	Number=Plur|PronType=Dem	_	_	_	Gloss=-DEM2:PL
+6	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+7	a	a_1	VERB	v	_	_	_	_	Gloss=to_come
+8	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+9	wiise	wiise	NOUN	n  (mo)	_	_	_	_	Gloss=sago
+10	-no	-no_2	PRON	n:(NounGenderNumber)	PronType=Dem	_	_	_	Gloss=-DEM2
+11	o	o_2	NOUN	n  (sapoi)	_	_	_	_	Gloss=house
+12	tofu	tofu_1	VERB	v	_	_	_	_	Gloss=to_wash
+
+# sent_id = 8.1
+# text = ana -se meli -io wiise -ni fali fou -we -lo -wo
+# text_en = Mother say: "we  have no sago anymore"
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	ana	ana	NOUN	n	_	_	_	_	Gloss=mother
+2	-se	-se_2	DET	n:(NounGenderNumber)	Gender=Fem|NounClass=Tww2|Number=Sing	_	_	_	Gloss=-F.SG
+3	meli	meli_1	VERB	v	_	_	_	_	Gloss=to_talk
+4	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+5	wiise	wiise	NOUN	n  (mo)	_	_	_	_	Gloss=sago
+6	-ni	-no_2	PRON	n:(NounGenderNumber)	PronType=Dem	_	_	_	Gloss=-DEM2
+7	fali	fali	PART	v	Aspect=Compl	_	_	_	Gloss=COMPL
+8	fou	fou	VERB	v	_	_	_	_	Gloss=to_break
+9	-we	-we_3	AUX	v:Tout	_	_	_	_	Gloss=-?
+10	-lo	-lo_2	AUX	AUX	VerbType=Cop	_	_	_	Gloss=-COP?
+11	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 8.2
+# text = a wiise -ni -ne ne na ano -wo
+# text_en = I want to go and get sago.
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	wiise	wiise	NOUN	n  (mo)	_	_	_	_	Gloss=sago
+3	-ni	-no_2	PRON	n:(NounGenderNumber)	PronType=Dem	_	_	_	Gloss=-DEM2
+4	-ne	-ne_5	PRON	X	PronType=Dem	_	_	_	Gloss=-DEM2.CONTRAST
+5	ne	ne_1	VERB	v	_	_	_	_	Gloss=to_catch
+6	na	na	VERB	v	_	_	_	_	Gloss=to_find
+7	ano	ano_1	VERB	v	_	_	_	_	Gloss=to_want
+8	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 8.3
+# text = ita -nwe ana -se meli -io a wiise waai -mo me- i -ne a -li tou -wo
+# text_en = the father tell the mother: " a  will go and cut one sago tree".
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	ita	ita	NOUN	n	_	_	_	_	Gloss=father
+2	-nwe	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+3	ana	ana	NOUN	n	_	_	_	_	Gloss=mother
+4	-se	-se_2	DET	n:(NounGenderNumber)	Gender=Fem|NounClass=Tww2|Number=Sing	_	_	_	Gloss=-F.SG
+5	meli	meli_1	VERB	v	_	_	_	_	Gloss=to_talk
+6	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+7	a	a_1	VERB	v	_	_	_	_	Gloss=to_go
+8	wiise	wiise	NOUN	n  (mo)	_	_	_	_	Gloss=sago
+9	waai	waai_1	NUM	cardnum	_	_	_	_	Gloss=one
+10	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+11	me-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+12	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+13	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+14	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+15	-li	-li_7	PRON	pro-form	Case=Acc	_	_	_	Gloss=-O
+16	tou	tou_1	VERB	v	_	_	_	_	Gloss=to_cut
+17	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 8.4
+# text = miki -nwe mene soli -fe nua -ne a -li -lo -ma a -io
+# text_en = Miki will take an axe and carry it and go with me.
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	miki	miki	PROPN	PN	_	_	_	_	Gloss=Miki
+2	-nwe	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+3	mene	mene_1	VERB	v	_	_	_	_	Gloss=to_go
+4	soli	soli	NOUN	n  (fe)	_	_	_	_	Gloss=axe
+5	-fe	-fe_1	DET	n:(NounGenderNumber)	NounClass=Tww7|Number=Sing	_	_	_	Gloss=-VII.SG
+6	nua	nua	VERB	v	_	_	_	_	Gloss=to_carry
+7	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+8	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+9	-li	-li_1	X	Pro-form	_	_	_	_	Gloss=-?
+10	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+11	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+12	a	a_1	VERB	v	_	_	_	_	Gloss=to_go
+13	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 8.5
+# text = ita -wa a -io ma- teto m- a -ne waai wiise sooi -ma
+# text_en = The father go and arrive at the trunk of a sago tree.
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	ita	ita	NOUN	n	_	_	_	_	Gloss=father
+2	-wa	_	_	_	_	_	_	_	_
+3	a	a_1	VERB	v	_	_	_	_	Gloss=to_go
+4	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+5	ma-	ma-_2	AUX	v:(dir-)	_	_	_	_	Gloss=down?-
+6	teto	teto	VERB	v	_	_	_	_	Gloss=to_arrive
+7	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+8	a	a_1	VERB	v	_	_	_	_	Gloss=to_come
+9	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+10	waai	waai_1	NUM	cardnum	_	_	_	_	Gloss=one
+11	wiise	wiise	NOUN	n  (mo)	_	_	_	_	Gloss=sago
+12	sooi	sooi	NOUN	n	_	_	_	_	Gloss=ass
+13	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+
+# sent_id = 8.6
+# text = miki -nwe soli -fe mu- nuane a
+# text_en = Miki went carrying the axe.
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	miki	miki	PROPN	PN	_	_	_	_	Gloss=Miki
+2	-nwe	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+3	soli	soli	NOUN	n  (fe)	_	_	_	_	Gloss=axe
+4	-fe	-fe_1	DET	n:(NounGenderNumber)	NounClass=Tww7|Number=Sing	_	_	_	Gloss=-VII.SG
+5	mu-	mu-	AUX	v:(dir-)	_	_	_	_	Gloss=up-
+6	nuane	nuane	VERB	v	_	_	_	_	Gloss=to_carry
+7	a	a_1	VERB	v	_	_	_	_	Gloss=to_come
+
+# sent_id = 8.7
+# text = ita -nwe m- i -ne wiiso -o tou
+# text_en = The father cut down the sago tree.
+# doc_id = 2014.VI.S1
+# doc_title = Describing images from a school book (Kissim Save) (cont.)
+1	ita	ita	NOUN	n	_	_	_	_	Gloss=father
+2	-nwe	-nwe	PRON	n:(NounGenderNumber)	Gender=Masc|Number=Sing|PronType=Dem	_	_	_	Gloss=-DEM2:SG.M
+3	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+4	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+5	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+6	wiiso	wiise	NOUN	n  (mo)	_	_	_	_	Gloss=sago
+7	-o	-o	DET	n:(NounGenderNumber)	NounClass=Tww6|Number=Sing	_	_	_	Gloss=-VI.SG
+8	tou	tou_1	VERB	v	_	_	_	_	Gloss=to_cut
