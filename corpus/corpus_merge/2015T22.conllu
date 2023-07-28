@@ -1,0 +1,511 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1
+# text = kleiau ta mi- tia -se lei -mo so -nehe fali mo- tou -na -ne touteli -lo -wo
+# text_en = Kleiau and I stayed sitting and looked: the dark was coming.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	kleiau	kleiau	PROPN	PN	_	6	subj	_	Gloss=Kleiau
+2	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	1	conj:coord	_	Gloss=1PL
+3	mi-	m-	AUX	v:(Modality1)	_	7	unk	_	Gloss=?-
+4	tia	tia_1	VERB	v	_	6	_:svc	_	Gloss=to_sit
+5	-se	-se_1	AUX	v:(Aspect/Modality2)	Aspect=Imp	3	comp:aux	_	Gloss=-DUR?
+6	lei	lei_1	VERB	v	_	5	comp:aux	_	Gloss=to_look
+7	-mo	-mo_6	SCONJ	v	VerbForm=Med	17	mod	_	Gloss=-MED2simultaneous
+8	so	so_1	NOUN	n  (he)	_	9	comp	_	Gloss=time
+9	-nehe	-nehe	PRON	DET	PronType=Dem	12	subj	_	Gloss=-DEM.PROX(DEM2:DEM4)
+10	fali	fali	PART	v	Aspect=Compl	11	comp:aux	_	Gloss=COMPL
+11	mo-	m-	AUX	v:(Modality1)	_	13	comp:aux	_	Gloss=?-
+12	tou	tou_2	NOUN	n  (ei)	_	10	comp:aux	_	Gloss=night
+13	-na	-na_1	AUX	v:(Aspect/Modality2)	_	14	comp:aux	_	Gloss=-?INTSFIER?
+14	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	17	conj:chain	_	Gloss=-MED
+15	touteli	touteli	ADJ	adj	_	16	comp:aux	_	Gloss=dark_black
+16	-lo	-lo_4	AUX	v:(Tense)	Tense=Past	17	comp:aux	_	Gloss=-PST
+17	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	0	root	_	Gloss=-FIN
+
+# sent_id = 2.1
+# text = meimo kleiau -we -fa ni tosi -tano -lo a -fa ni tosi -tano -lo sane -pe -lo mwe -fa sane -pe -lo ni tosi -tano -lo m- a mo- how -s -ne
+# text_en = Then Kleiau with a torsh, myself with a torsh and a bow, him self with a bow, we were coming with our light.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	meimo	meimo	CCONJ	correlconn	_	_	_	_	Gloss=then
+2	kleiau	kleiau	PROPN	PN	_	_	_	_	Gloss=Kleiau
+3	-we	-we_1	DET	n:(NounGenderNumber)	Gender=Masc|NounClass=Tww1|Number=Sing	_	_	_	Gloss=-M.SG
+4	-fa	-fa_3	X	Pro-form	Case=Dis	_	_	_	Gloss=-DISTR
+5	ni	ni_1	NOUN	n  (tanoi)tano	_	_	_	_	Gloss=fire
+6	tosi	tosi_1	NOUN	n	_	_	_	_	Gloss=torch
+7	-tano	-tano	DET	n:(NounGenderNumber)	NounClass=Tww10|Number=Sing	_	_	_	Gloss=-X.SG
+8	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+9	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+10	-fa	-fa_3	X	Pro-form	Case=Dis	_	_	_	Gloss=-DISTR
+11	ni	ni_1	NOUN	n  (tanoi)tano	_	_	_	_	Gloss=fire
+12	tosi	tosi_1	NOUN	n	_	_	_	_	Gloss=torch
+13	-tano	-tano	DET	n:(NounGenderNumber)	NounClass=Tww10|Number=Sing	_	_	_	Gloss=-X.SG
+14	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+15	sane	sane	NOUN	n  (pe)	_	_	_	_	Gloss=bow
+16	-pe	-pe	DET	n:(NounGenderNumber)	NounClass=Tww8|Number=Sing	_	_	_	Gloss=-VIII.SG
+17	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+18	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+19	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+20	-fa	-fa_3	X	Pro-form	Case=Dis	_	_	_	Gloss=-DISTR
+21	sane	sane	NOUN	n  (pe)	_	_	_	_	Gloss=bow
+22	-pe	-pe	DET	n:(NounGenderNumber)	NounClass=Tww8|Number=Sing	_	_	_	Gloss=-VIII.SG
+23	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+24	ni	ni_1	NOUN	n  (tanoi)tano	_	_	_	_	Gloss=fire
+25	tosi	tosi_1	NOUN	n	_	_	_	_	Gloss=torch
+26	-tano	-tano	DET	n:(NounGenderNumber)	NounClass=Tww10|Number=Sing	_	_	_	Gloss=-X.SG
+27	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+28	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+29	a	a_1	VERB	v	_	_	_	_	Gloss=to_come
+30	mo-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+31	how	hou_2	VERB	v	_	_	_	_	Gloss=to_light(make_light)
+32	-s	_	_	_	_	_	_	_	_
+
+# sent_id = 2.2
+# text = ta mami ha -le mo- how -li -me -se
+# text_en = We saw small pigs with the lights.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	ta	ta_1	PRON	pers	Number=Plur|Person=1|PronType=Prs	_	_	_	Gloss=1PL
+2	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+3	ha	ha_1	ADJ	adj	_	_	_	_	Gloss=small
+4	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+5	mo-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+6	how	hou_2	VERB	v	_	_	_	_	Gloss=to_light(make_light)
+7	-li	-li_1	X	Pro-form	_	_	_	_	Gloss=-?
+8	-me	-me_4	AUX	Verb	_	_	_	_	Gloss=-?
+9	-se	-se_1	AUX	v:(Aspect/Modality2)	Aspect=Imp	_	_	_	Gloss=-DUR?
+
+# sent_id = 2.3
+# text = tau -tano uio ife -ma mo- olu -me -se
+# text_en = They run away upstream, toward  the spring of the Tau River
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	tau	tau	PROPN	PN_hydronym	_	_	_	_	Gloss=Tau
+2	-tano	-tano	DET	n:(NounGenderNumber)	NounClass=Tww10|Number=Sing	_	_	_	Gloss=-X.SG
+3	uio	uio	NOUN	n	_	_	_	_	Gloss=spring
+4	ife	ife	ADV	adv	_	_	_	_	Gloss=upstream
+5	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+6	mo-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+7	olu	olu	VERB	v	_	_	_	_	Gloss=to_run_away
+8	-me	-me_4	AUX	Verb	_	_	_	_	Gloss=-?
+9	-se	-se_1	AUX	v:(Aspect/Modality2)	Aspect=Imp	_	_	_	Gloss=-DUR?
+
+# sent_id = 2.4
+# text = sinari -he m- osisia -li -mu -wo
+# text_en = We search with the torshs in a garden planted with sweet potato.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	sinari	sinali	NOUN	n	_	_	_	_	Gloss=sweet_potato
+2	-he	-he_1	DET	n:(NounGenderNumber)	NounClass=Tww4|Number=Sing	_	_	_	Gloss=-IV.SG
+3	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+4	osisia	osisia	VERB	v	_	_	_	_	Gloss=to_light
+5	-li	-li_1	X	Pro-form	_	_	_	_	Gloss=-?
+6	-mu	-mu_1	AUX	v:(Aspect/Modality2)	_	_	_	_	Gloss=-?
+7	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 2.5
+# text = mami o -mo sinari -le iowe o -wo
+# text_en = a young pig was eating sweet potatos.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+2	o	o_3	NOUN	n	_	_	_	_	Gloss=child
+3	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+4	sinari	sinali	NOUN	n	_	_	_	_	Gloss=sweet_potato
+5	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+6	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+7	o	o_4	VERB	v	_	_	_	_	Gloss=to_eat
+8	-wo	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 3.1
+# text = meimo a mami -no ni tosi -tano m- osisia -ne mami -no nomu toto -mo
+# text_en = Then I lighted this pig with my torsh and he stand there.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	meimo	meimo	CCONJ	correlconn	_	_	_	_	Gloss=then
+2	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+3	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+4	-no	-no_2	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM2
+5	ni	ni_1	NOUN	n  (tanoi)tano	_	_	_	_	Gloss=fire
+6	tosi	tosi_1	NOUN	n	_	_	_	_	Gloss=torch
+7	-tano	-tano	DET	n:(NounGenderNumber)	NounClass=Tww10|Number=Sing	_	_	_	Gloss=-X.SG
+8	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+9	osisia	osisia	VERB	v	_	_	_	_	Gloss=to_light
+10	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+11	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+12	-no	-no_2	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM2
+13	nomu	nomu	ADV	adv	Case=Loc	_	_	_	Gloss=LOC:there
+14	toto	teto	VERB	v	_	_	_	_	Gloss=sanap
+15	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+
+# sent_id = 3.2
+# text = a heianu -ku -mu iowe iefi
+# text_en = I throwed my spear.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	heianu	heiane	NOUN	n  (fo)	_	_	_	_	Gloss=spear
+3	-ku	_	_	_	_	_	_	_	_
+4	-mu	_	_	_	_	_	_	_	_
+5	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+6	iefi	iefi	VERB	v	_	_	_	_	Gloss=to_shoot
+
+# sent_id = 3.3
+# text = mine mami o -no tiapi -ma mau
+# text_en = The young pig died.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	mine	meinami	ADV	adv	_	_	_	_	Gloss=after
+2	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+3	o	o_3	NOUN	n	_	_	_	_	Gloss=child
+4	-no	-no_2	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM2
+5	tiapi	tiape	NOUN	n  (mo)	_	_	_	_	Gloss=life
+6	-ma	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+7	mau	mau	VERB	v	_	_	_	_	Gloss=to_die
+
+# sent_id = 4
+# text = fa mami kali -so fi- i -ne -io mami o -mo -i
+# text_en = It was not a big pig yet, it was a young one.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	fa	fa_2	ADV	adv	_	_	_	_	Gloss=yet
+2	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+3	kali	kali_2	ADJ	adj	_	_	_	_	Gloss=big
+4	-so	se_4	PRON	DET	Definite=Ind|Polarity=NEG|PronType=Dem	_	_	_	Gloss=DEM3.INDEF.NEG
+5	fi-	fe-	AUX	v:(Polarity)	Polarity=NEG	_	_	_	Gloss=NEG-
+6	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_be
+7	-ne	-ne_9	AUX	v:(Polarity2)	Polarity=NEG	_	_	_	Gloss=-NEG2
+8	-io	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+9	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+10	o	o_3	NOUN	n	_	_	_	_	Gloss=child
+11	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+12	-i	-io_1	AUX	v:(Chaining)	VerbForm=Fin	0	root	_	Gloss=-FIN
+
+# sent_id = 5
+# text = mine mami o -ne tiapi -mo mau -mo mu- nwa -ne m- i -ne
+# text_en = Then after the young pig died, we carry it.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	mine	meinami	ADV	adv	_	_	_	_	Gloss=so_that
+2	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+3	o	o_3	NOUN	n	_	_	_	_	Gloss=child
+4	-ne	-ne_5	PRON	X	PronType=Dem	_	_	_	Gloss=-DEM2.CONTRAST
+5	tiapi	tiape	NOUN	n  (mo)	_	_	_	_	Gloss=life
+6	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+7	mau	mau	VERB	v	_	_	_	_	Gloss=to_die
+8	-mo	-mo_6	SCONJ	v	VerbForm=Med	_	_	_	Gloss=-MED2previousness
+9	mu-	mu-	AUX	v:(dir-)	_	_	_	_	Gloss=up-
+10	nwa	nua	VERB	v	_	_	_	_	Gloss=to_carry
+11	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+12	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+13	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+14	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+
+# sent_id = 6
+# text = mele -ni -nami mine -le me- tei -ne hepi -le m- foo -ne eni -mo me- tefi -ne mu- nuane -nami
+# text_en = We cut branches,  take leaves and pull ropes and carry it.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	mele	_	_	_	_	_	_	_	_
+2	-ni	-ni_2	AUX	v:(Aspect/Modality2)	Tense=Fut	_	_	_	Gloss=-?FUT.PROX
+3	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+4	mine	mine	NOUN	n	_	_	_	_	Gloss=branch_leaf
+5	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+6	me-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+7	tei	tei_3	VERB	v	_	_	_	_	Gloss=to_cut
+8	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+9	hepi	hepi_2	NOUN	n	_	_	_	_	Gloss=leaf
+10	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+11	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+12	foo	fo_3	VERB	v	_	_	_	_	Gloss=to_rope
+13	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+14	eni	eni	NOUN	n  (mo)	_	_	_	_	Gloss=rope
+15	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+16	me-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+17	tefi	tefi	VERB	v	_	_	_	_	Gloss=to_pull
+18	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+19	mu-	mu-	AUX	v:(dir-)	_	_	_	_	Gloss=up-
+20	nuane	nuane	VERB	v	_	_	_	_	Gloss=to_carry
+21	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+
+# sent_id = 7
+# text = kleiawu -ei ianiso -ma mu- nuane iowe mio
+# text_en = Kleiau go carrying it on his shoulder.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	kleiawu	kleiau	PROPN	PN	_	_	_	_	Gloss=Kleiau
+2	-ei	-ei	AUX	v:(Aspect/Modality2)	_	_	_	_	Gloss=-?
+3	ianiso	ieniso	NOUN	n  (he)	_	_	_	_	Gloss=shoulder
+4	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+5	mu-	mu-	AUX	v:(dir-)	_	_	_	_	Gloss=up-
+6	nuane	nuane	VERB	v	_	_	_	_	Gloss=to_carry
+7	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+8	mio	mio_2	VERB	v	_	_	_	_	Gloss=to_go_down
+
+# sent_id = 8
+# text = mio -ni -nami m- io- -ne lei -mo upasi u teno mami sy'au -fo upasi -nu iowe miʔai
+# text_en = We went down and we look at the bank or the river and saw rats crossing the river .
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	mio	mio_2	VERB	v	_	_	_	_	Gloss=to_go_down
+2	-ni	-ni_2	AUX	v:(Aspect/Modality2)	Tense=Fut	_	_	_	Gloss=-?FUT.PROX
+3	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+4	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+5	io-	mio-_1	AUX	v:(dir-)	_	_	_	_	Gloss=down-
+6	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+7	lei	lei_1	VERB	v	_	_	_	_	Gloss=to_look
+8	-mo	-mo_6	SCONJ	v	VerbForm=Med	_	_	_	Gloss=-MED2simultaneous
+9	upasi	upase	NOUN	n  (he)	_	_	_	_	Gloss=sand_bank
+10	u	u_1	NOUN	n  (tanoi)tano	_	_	_	_	Gloss=water
+11	teno	-te_2	X	Adverb	_	_	_	_	Gloss=along
+12	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+13	sy'au	suau	NOUN	n	_	_	_	_	Gloss=bush_rat
+14	-fo	-fo	DET	n:(NounGenderNumber)	NounClass=Tww5|Number=Sing	_	_	_	Gloss=-V.SG
+15	upasi	upase	NOUN	n  (he)	_	_	_	_	Gloss=sand_bank
+16	-nu	-nu_1	DET	Noun	Case=Loc	_	_	_	Gloss=-LOC
+17	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+18	miʔai	miʔai	VERB	v	_	_	_	_	Gloss=to_cross_toward_the_other_side
+
+# sent_id = 9.1
+# text = kou tenu slo -mo kleiau -we fia -ia -mo iowe iefi
+# text_en = Kleiau sat down and shot the rat with an arrow.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	kou	kou	NOUN	n	_	_	_	_	Gloss=sugar_cane_specie
+2	tenu	-te_2	X	Adverb	_	_	_	_	Gloss=along
+3	slo	sele_1	VERB	v	_	_	_	_	Gloss=to_sit
+4	-mo	-mo_6	SCONJ	v	VerbForm=Med	_	_	_	Gloss=-MED2previousness
+5	kleiau	kleiau	PROPN	PN	_	_	_	_	Gloss=Kleiau
+6	-we	-we_1	DET	n:(NounGenderNumber)	Gender=Masc|NounClass=Tww1|Number=Sing	_	_	_	Gloss=-M.SG
+7	fia	fia	NOUN	n  (aple)	_	_	_	_	Gloss=arrow
+8	-ia	-ia_1	DET	Noun	_	_	_	_	Gloss=-?
+9	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+10	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+11	iefi	iefi	VERB	v	_	_	_	_	Gloss=to_shoot
+
+# sent_id = 9.2
+# text = kleiawu fia -ia -fe iefi
+# text_en = Kleiawu shot an arrow.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	kleiawu	kleiau	PROPN	PN	_	_	_	_	Gloss=Kleiau
+2	fia	fia	NOUN	n  (aple)	_	_	_	_	Gloss=arrow
+3	-ia	-ia_1	DET	Noun	_	_	_	_	Gloss=-?
+4	-fe	-fe_1	DET	n:(NounGenderNumber)	NounClass=Tww7|Number=Sing	_	_	_	Gloss=-VII.SG
+5	iefi	iefi	VERB	v	_	_	_	_	Gloss=to_shoot
+
+# sent_id = 9.3
+# text = mami no -fo mwe teto
+# text_en = He shot the rat.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+2	no	no_3	PRON	DET	PronType=Dem	_	_	_	Gloss=DEM2
+3	-fo	-fo	DET	n:(NounGenderNumber)	NounClass=Tww5|Number=Sing	_	_	_	Gloss=-V.SG
+4	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+5	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+
+# sent_id = 10
+# text = mwe tete -nami mami -no fo -lo mami -no fo -lo mami -mo -lo mu- nuane m- u -ne ko teia mamo mo- fu -ne o kelia -sapo nomo ianu -le mo- to -ne -nami fu ni -tano m- alo -nami mami -mo heno ni -ma heno -wu
+# text_en = Having shot it, he carry this rat  together with the pig, put them there in the garden, after we cut some wood  we light the fire int the house and put the pig one the fire.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	-m	-me_6	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+2	-we	-we_6	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+3	tete	teto	VERB	v	_	_	_	_	Gloss=to_hit
+4	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+5	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+6	-no	-no_2	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM2
+7	fo	fo_1	NOUN	n	_	_	_	_	Gloss=bush_rat
+8	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+9	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+10	-no	-no_2	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM2
+11	fo	fo_1	NOUN	n	_	_	_	_	Gloss=bush_rat
+12	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+13	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+14	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+15	-lo	-lo_3	NOUN	n	Case=Com	_	_	_	Gloss=-COM
+16	mu-	mu-	AUX	v:(dir-)	_	_	_	_	Gloss=up-
+17	nuane	nuane	VERB	v	_	_	_	_	Gloss=to_carry
+18	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+19	u	u_3	VERB	v	_	_	_	_	Gloss=to_go_up
+20	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+21	ko	ko	DET	Noun	_	_	_	_	Gloss=above-
+22	teia	teia	NOUN	n  (ei)	_	_	_	_	Gloss=garden
+23	mamo	mamu	ADV	adv	_	_	_	_	Gloss=over_there
+24	mo-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+25	fu	fu_2	VERB	v	_	_	_	_	Gloss=to_put
+26	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+27	o	o_2	NOUN	n  (sapoi)	_	_	_	_	Gloss=house
+28	kelia	kaliia	ADJ	adj	_	_	_	_	Gloss=long
+29	-sapo	-sapo	DET	n:(NounGenderNumber)	NounClass=Tww9|Number=Sing	_	_	_	Gloss=-IX.SG
+30	nomo	nomu	ADV	adv	Case=Loc	_	_	_	Gloss=LOC:there
+31	ianu	ianu_1	NOUN	n  (fe)	_	_	_	_	Gloss=fire_wood
+32	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+33	mo-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+34	to	tou_1	VERB	v	_	_	_	_	Gloss=to_cut
+35	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+36	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+37	fu	fu_1	NOUN	n  (fo)	_	_	_	_	Gloss=stone
+38	ni	ni_1	NOUN	n  (tanoi)tano	_	_	_	_	Gloss=fire
+39	-tano	-tano	DET	n:(NounGenderNumber)	NounClass=Tww10|Number=Sing	_	_	_	Gloss=-X.SG
+40	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+41	alo	alu	VERB	v	_	_	_	_	Gloss=to_light_fire
+42	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+43	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+44	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+45	heno	heno	X	?	_	_	_	_	Gloss=?
+46	ni	ni_1	NOUN	n  (tanoi)tano	_	_	_	_	Gloss=fire
+47	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+48	heno	heno	X	?	_	_	_	_	Gloss=?
+
+# sent_id = 11
+# text = a fefe molope m- esa
+# text_en = I dig out some Molope taro.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+2	fefe	fefe	NOUN	n  (mo)	_	_	_	_	Gloss=taro
+3	molope	molope	_	_	_	_	_	_	Gloss=taro_variety
+4	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+5	esa	esi_1	VERB	v	_	_	_	_	Gloss=to_harvest_to_dig_out
+
+# sent_id = 12
+# text = meinami fefe niolo mami niolo nisopu -mo iowe futei
+# text_en = Then puting down taro and pig we bake them in the embers.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	meinami	meinami	ADV	adv	_	_	_	_	Gloss=so_that
+2	fefe	fefe	NOUN	n  (mo)	_	_	_	_	Gloss=taro
+3	niolo	niolo	VERB	v	_	_	_	_	_
+4	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+5	niolo	niolo	VERB	v	_	_	_	_	_
+6	nisopu	nesopu	NOUN	n  (mo)	_	_	_	_	Gloss=braising
+7	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+8	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+9	futei	futei	VERB	v	_	_	_	_	Gloss=to_cook_with_stone
+
+# sent_id = 13.1
+# text = mo- fute -ne -nami m- eta -ne -nami mo- futa tete -nami mi- tia -se m- eta -ne -nami mami o -mo -i tau mami o ne -fo m- eitau -nami mo -fa taa -he a -fa taa -he
+# text_en = After the baking is over and we have removed the leaves, once the baking is done and we sit down and removed the leaves, once we have cut in pieces the pig and the rat he take this part and I take that part.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	mo-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+2	fute	futei	VERB	v	_	_	_	_	Gloss=to_cook_with_stone
+3	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+4	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+5	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+6	eta	ota	VERB	v	_	_	_	_	Gloss=to_chase_out
+7	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+8	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+9	mo-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+10	futa	futei	VERB	v	_	_	_	_	Gloss=to_cook_with_stone
+11	tete	tete_1	NOUN	n	_	_	_	_	Gloss=food
+12	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+13	mi-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+14	tia	tia_1	VERB	v	_	_	_	_	Gloss=to_sit
+15	-se	-se_1	AUX	v:(Aspect/Modality2)	Aspect=Imp	_	_	_	Gloss=-DUR?
+16	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+17	eta	ota	VERB	v	_	_	_	_	Gloss=to_chase_out
+18	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+19	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+20	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+21	o	o_3	NOUN	n	_	_	_	_	Gloss=child
+22	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	_	_	_	Gloss=-III.SG
+23	-i	-io_1	AUX	v:(Chaining)	VerbForm=Fin	_	_	_	Gloss=-FIN
+24	tau	tou_1	VERB	v	_	_	_	_	Gloss=to_cut
+25	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+26	o	o_3	NOUN	n	_	_	_	_	Gloss=child
+27	ne	no_3	PRON	DET	PronType=Dem	_	_	_	Gloss=DEM2
+28	-fo	-fo	DET	n:(NounGenderNumber)	NounClass=Tww5|Number=Sing	_	_	_	Gloss=-V.SG
+29	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+30	eitau	eitau	VERB	v	_	_	_	_	Gloss=to_cut
+31	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+32	mo	mo_1	PRON	pers	Animacy=Nhum|Number=Sing|Person=3|PronType=Prs	_	_	_	Gloss=DEM1.3SG.NOT_HUM
+33	-fa	-fa_3	X	Pro-form	Case=Dis	_	_	_	Gloss=-DISTR
+34	taa	taa_1	NOUN	n  (he)	_	_	_	_	Gloss=side
+35	-he	-he_1	DET	n:(NounGenderNumber)	NounClass=Tww4|Number=Sing	_	_	_	Gloss=-IV.SG
+36	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	_	_	_	Gloss=1SG
+37	-fa	-fa_3	X	Pro-form	Case=Dis	_	_	_	Gloss=-DISTR
+38	taa	taa_1	NOUN	n  (he)	_	_	_	_	Gloss=side
+39	-he	-he_1	DET	n:(NounGenderNumber)	NounClass=Tww4|Number=Sing	_	_	_	Gloss=-IV.SG
+
+# sent_id = 13.2
+# text = mami no -fo teinale -papo mo- fale -nami
+#  = # text_en =
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+2	no	no_3	PRON	DET	PronType=Dem	_	_	_	Gloss=DEM2
+3	-fo	-fo	DET	n:(NounGenderNumber)	NounClass=Tww5|Number=Sing	_	_	_	Gloss=-V.SG
+4	teinale	teinale	ADP	adp	_	_	_	_	Gloss=middle
+5	-papo	-papo	_	_	_	_	_	_	Gloss=-?
+6	mo-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+7	fale	_	_	_	_	_	_	_	_
+8	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+
+# sent_id = 14
+# text = meinami mami suawu no -fo nomu m- a -se m- a olale -nami
+# text_en = We eat completely the bush rat.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	meinami	meinami	ADV	adv	_	_	_	_	Gloss=so_that
+2	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+3	suawu	suau	NOUN	n	_	_	_	_	Gloss=bush_rat
+4	no	no_3	PRON	DET	PronType=Dem	_	_	_	Gloss=DEM2
+5	-fo	-fo	DET	n:(NounGenderNumber)	NounClass=Tww5|Number=Sing	_	_	_	Gloss=-V.SG
+6	nomu	nomu	ADV	adv	Case=Loc	_	_	_	Gloss=LOC:there
+7	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+8	a	o_4	VERB	v	_	_	_	_	Gloss=to_eat
+9	-se	-se_1	AUX	v:(Aspect/Modality2)	Aspect=Imp	_	_	_	Gloss=-DUR?
+10	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+11	a	o_4	VERB	v	_	_	_	_	Gloss=to_eat
+12	olale	olale	VERB	v	_	_	_	_	Gloss=to_finish?
+13	-nami	-nami	ADV	AUX	_	_	_	_	Gloss=after
+
+# sent_id = 15
+# text = mami tuen -le hepe -le m- fo -ne mu- nuane opsono numi a mami o nle hepi -le m- fo -ne
+# text_en = Part of the pig was wrapped into leaves  and I carried it there in the village; the young pig were roped in leaves.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+2	tuen	tuwe	ADV	adv	_	_	_	_	Gloss=half
+3	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+4	hepe	hepi_2	NOUN	n	_	_	_	_	Gloss=leaf
+5	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+6	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+7	fo	fo_3	VERB	v	_	_	_	_	Gloss=to_rope
+8	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+9	mu-	mu-	AUX	v:(dir-)	_	_	_	_	Gloss=up-
+10	nuane	nuane	VERB	v	_	_	_	_	Gloss=to_carry
+11	opsono	opsono	NOUN	n	_	_	_	_	Gloss=village
+12	numi	nomu	ADV	adv	Case=Loc	_	_	_	Gloss=LOC:there
+13	a	a_1	VERB	v	_	_	_	_	Gloss=to_go
+14	mami	mami_1	NOUN	n  (mo)	_	_	_	_	Gloss=pig
+15	o	o_3	NOUN	n	_	_	_	_	Gloss=child
+16	nle	nle	PRON	DET	Number=Plur|PronType=Dem	_	_	_	Gloss=DEM2:PL
+17	hepi	hepi_2	NOUN	n	_	_	_	_	Gloss=leaf
+18	-le	-le_1	DET	n:(Num)	Number=Plur	_	_	_	Gloss=-PL
+19	m-	m-	AUX	v:(Modality1)	_	_	_	_	Gloss=?-
+20	fo	fo_3	VERB	v	_	_	_	_	Gloss=to_rope
+21	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	_	_	_	Gloss=-MED
+
+# sent_id = 16
+# text = lei -mo so -nehe temooieio
+# text_en = We saw the day was coming.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	lei	lei_1	VERB	v	_	_	_	_	Gloss=to_look
+2	-mo	-mo_6	SCONJ	v	VerbForm=Med	_	_	_	Gloss=-MED2simultaneous
+3	so	so_1	NOUN	n  (he)	_	_	_	_	Gloss=time
+4	-nehe	-nehe	PRON	DET	PronType=Dem	_	_	_	Gloss=-DEM.PROX(DEM2:DEM4)
+5	temooieio	temooieio	NOUN	n	_	_	_	_	Gloss=day_light
+
+# sent_id = 17
+# text = waai mioli' ale
+# text_en = That's all.
+# doc_id = 2015T22
+# doc_title = 2015T22++
+1	waai	waai_1	NUM	cardnum	_	_	_	_	Gloss=one
+2	mioli'	_	_	_	_	_	_	_	_
+3	ale	ale_3	ADV	adv	_	_	_	_	Gloss=only

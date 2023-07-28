@@ -1,0 +1,146 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = 1.1
+# text = a honu afetei -ne iowe i -nai -mwii
+# text_en = I will leave here and go.
+# doc_id = 2014T49
+# doc_title = 2014T49 mon voyage par irene. cf T46bis
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	3	subj	_	Gloss=1SG
+2	honu	honu	ADV	adv	Case=Loc	4	mod	_	Gloss=LOC:here;there
+3	afetei	afetei	VERB	v	_	4	comp:aux	_	Gloss=to_leave
+4	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	10	conj:chain	_	Gloss=-MED
+5	iowe	iowe	VERB	v	_	7	comp:aux	_	Gloss=to_go
+6	i	i	VERB	light verb	VerbType=Light	5	comp:aux	_	Gloss=to_go
+7	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	10	comp:aux	_	Gloss=-IRR
+8	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+9	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+10	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.2
+# text = a no soluso sle -ne i -nai -mwii
+# text_en = I will go in three week.
+# doc_id = 2014T49
+# doc_title = 2014T49 mon voyage par irene. cf T46bis
+1	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	4	subj	_	Gloss=1SG
+2	no	no_1	NOUN	n  (mo)	_	3	comp	_	Gloss=week
+3	soluso	selisa	NUM	cardnum	_	5	mod	_	Gloss=three
+4	sle	sele_1	VERB	v	_	5	comp:aux	_	Gloss=to_stay
+5	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	10	conj:chain	_	Gloss=-MED
+6	i	i	VERB	light verb	VerbType=Light	7	comp:aux	_	Gloss=to_go
+7	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	10	comp:aux	_	Gloss=-IRR
+8	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+9	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+10	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.3
+# text = i -ne sumwari -ma i tete -nai -mwii
+# text_en = I will go to Sumwari.
+# doc_id = 2014T49
+# doc_title = 2014T49 mon voyage par irene. cf T46bis
+1	i	i	VERB	light verb	VerbType=Light	2	comp:aux	_	Gloss=to_go
+2	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	10	conj:chain	_	Gloss=-MED
+3	sumwari	sumwari	PROPN	PN_toponyme	_	4	comp	_	Gloss=Sumwari
+4	-ma	-ma_1	ADP	n:Tout	Case=All	10	mod	_	Gloss=-ALL
+5	i	i	VERB	light verb	VerbType=Light	6	_:svc	_	Gloss=to_go
+6	tete	teto	VERB	v	_	7	comp:aux	_	Gloss=kamap_sanap
+7	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	10	comp:aux	_	Gloss=-IRR
+8	-m	-me_5	PRON	_	PronType=Dem	_	_	_	Gloss=-DEM1
+9	-wi	-we_5	X	_	Gender=Masc|Number=Sing	_	_	_	Gloss=-M.SG
+10	-i	-io_1	AUX	_	VerbForm=Fin	_	_	_	Gloss=-FIN
+
+# sent_id = 1.4
+# text = -nami balu -sapo eni -mo -lo mailu -ni
+# text_en = Then I will call the plane with the radio.
+# doc_id = 2014T49
+# doc_title = 2014T49 mon voyage par irene. cf T46bis
+1	-nami	-nami	ADV	AUX	_	8	mod	_	Gloss=after
+2	balu	balu	NOUN	n  (sapoi)sapo	_	3	comp	_	Gloss=plane
+3	-sapo	-sapo	DET	n:(NounGenderNumber)	NounClass=Tww9|Number=Sing	7	comp:obj	_	Gloss=-IX.SG
+4	eni	eni	NOUN	n  (mo)	_	5	comp	_	Gloss=rope
+5	-mo	-mo_1	DET	n:(NounGenderNumber)	NounClass=Tww3|Number=Sing	6	comp	_	Gloss=-III.SG
+6	-lo	-lo_2	AUX	AUX	VerbType=Cop	7	mod:obl	_	Gloss=-COP?
+7	mailu	mali	VERB	v	_	8	comp:aux	_	Gloss=to_talk
+8	-ni	-ni_2	AUX	v:(Aspect/Modality2)	Tense=Fut	0	root	_	Gloss=-?FUT.PROX
+
+# sent_id = 1.5
+# text = balu -sapo malu -nami iowe a -nai -sapoi
+# text_en = After having called the plane, it will come.
+# doc_id = 2014T49
+# doc_title = 2014T49 mon voyage par irene. cf T46bis
+1	balu	balu	NOUN	n  (sapoi)sapo	_	2	comp	_	Gloss=plane
+2	-sapo	-sapo	DET	n:(NounGenderNumber)	NounClass=Tww9|Number=Sing	3	comp:obj	_	Gloss=-IX.SG
+3	malu	mali	VERB	v	_	4	comp:aux	_	Gloss=to_talk
+4	-nami	-nami	ADV	AUX	_	8	conj:chain	_	Gloss=after
+5	iowe	iowe	VERB	v	_	7	comp:aux	_	Gloss=to_go
+6	a	a_1	VERB	v	_	5	comp:aux	_	Gloss=to_come
+7	-nai	-nai	AUX	v:(Aspect/Modality2)	Mood=Irr	8	comp:aux	_	Gloss=-IRR
+8	-sapoi	-sapo	DET	n:(NounGenderNumber)	NounClass=Tww9|Number=Sing	0	root	_	Gloss=-IX.SG
+
+# sent_id = 1.6
+# text = ii -nami a iowe sele -nei iowe i -ni -i wewaki -ma
+# text_en = Once it arrive I will sit inside and go to Wewak.
+# doc_id = 2014T49
+# doc_title = 2014T49 mon voyage par irene. cf T46bis
+1	ii	io	VERB	v	_	2	comp:aux	_	Gloss=to_go
+2	-nami	-nami	ADV	AUX	_	10	conj:chain	_	Gloss=after
+3	a	a_2	PRON	pers	Number=Sing|Person=1|PronType=Prs	5	subj	_	Gloss=1SG
+4	iowe	iowe	VERB	v	_	6	comp:aux	_	Gloss=to_go
+5	sele	sele_1	VERB	v	_	4	comp:aux	_	Gloss=to_sit
+6	-nei	-nei	VERB	v	Tense=Fut	10	conj:chain	_	Gloss=-FUT
+7	iowe	iowe	VERB	v	_	9	comp:aux	_	Gloss=to_go
+8	i	i	VERB	light verb	VerbType=Light	7	comp:aux	_	Gloss=to_be
+9	-ni	-ni_2	AUX	v:(Tense)	Tense=Fut	10	comp:aux	_	Gloss=-FUT.S1S
+10	-i	-io_1	AUX	v:(Chaining)	VerbForm=Fin	0	root	_	Gloss=-FIN
+11	wewaki	wiwa	PROPN	PN_toponyme	_	12	comp	_	Gloss=Wewak
+12	-ma	-ma_1	ADP	n:Tout	Case=All	10	mod	_	Gloss=-ALL
+
+# sent_id = 1.7
+# text = io fau -ni iom- wa- ia balusu kali -sapo hapo sle -ne iowe i -ni
+# text_en = Once landed, I will sit again in a big balus and go.
+# doc_id = 2014T49
+# doc_title = 2014T49 mon voyage par irene. cf T46bis
+1	io	io	VERB	v	_	_	_	_	Gloss=to_go
+2	fau	fao	VERB	v	_	_	_	_	Gloss=to_fall_down
+3	-ni	-ni_2	AUX	v:(Aspect/Modality2)	Tense=Fut	_	_	_	Gloss=-?FUT.PROX
+4	iom-	_	_	_	_	_	_	_	_
+5	wa-	wa-_1	AUX	v:(Modality1)	_	_	_	_	Gloss=back-
+6	ia	ia_1	VERB	v	_	_	_	_	Gloss=to_go
+7	balusu	balusi	NOUN	n	_	_	_	_	Gloss=plane
+8	kali	kali_2	ADJ	adj	_	_	_	_	Gloss=big
+9	-sapo	-sapo	DET	n:(NounGenderNumber)	NounClass=Tww9|Number=Sing	_	_	_	Gloss=-IX.SG
+10	hapo	hapo	NOUN	n	_	_	_	_	Gloss=time
+11	sle	sele_1	VERB	v	_	12	comp:aux	_	Gloss=to_sit
+12	-ne	-ne_1	AUX	v:(Chaining)	VerbForm=Med	15	conj:chain	_	Gloss=-MED
+13	iowe	iowe	VERB	v	_	15	comp:aux	_	Gloss=to_go
+14	i	i	VERB	light verb	VerbType=Light	13	comp:aux	_	Gloss=to_go
+15	-ni	-ni_2	AUX	v:(Tense)	Tense=Fut	0	root	_	Gloss=-FUT.S1S
+
+# sent_id = 1.8
+# text = opsono -ma kali me naano iowe i tete -ni
+# text_en = I will arrive in my big village.
+# doc_id = 2014T49
+# doc_title = 2014T49 mon voyage par irene. cf T46bis
+1	opsono	opsono	NOUN	n	_	_	_	_	Gloss=village
+2	-ma	-ma_1	ADP	n:Tout	Case=All	_	_	_	Gloss=-ALL
+3	kali	kali_2	ADJ	adj	_	_	_	_	Gloss=big
+4	me	me_1	DET	poss	Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	_	_	_	Gloss=2SGM.POSS
+5	naano	naano_2	NOUN	n	Poss=Yes	_	_	_	Gloss=POSS
+6	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+7	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+8	tete	teto	VERB	v	_	_	_	_	Gloss=kamap_sanap
+9	-ni	-ni_2	AUX	v:(Aspect/Modality2)	Tense=Fut	_	_	_	Gloss=-?FUT.PROX
+
+# sent_id = 1.9
+# text = howaowa teta ali mle nomo iowe i tete -ni
+# text_en = All my family will be here.
+# doc_id = 2014T49
+# doc_title = 2014T49 mon voyage par irene. cf T46bis
+1	howaowa	howaowa	NOUN	n	_	_	_	_	Gloss=all_family
+2	teta	tita	NOUN	n	_	_	_	_	Gloss=family
+3	ali	ali_3	PRON	pers	PronType=Prs	_	_	_	Gloss=all
+4	m	me_6	PRON	_	PronType=Dem	_	_	_	Gloss=DEM1
+5	-le	-le_4	X	_	Number=Plur	_	_	_	Gloss=-PL
+6	nomo	nomu	ADV	adv	Case=Loc	_	_	_	Gloss=LOC:there
+7	iowe	iowe	VERB	v	_	_	_	_	Gloss=to_go
+8	i	i	VERB	light verb	VerbType=Light	_	_	_	Gloss=to_go
+9	tete	teto	VERB	v	_	_	_	_	Gloss=to_stand_up
+10	-ni	-ni_2	AUX	v:(Aspect/Modality2)	Tense=Fut	_	_	_	Gloss=-?FUT.PROX
