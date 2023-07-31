@@ -3,7 +3,7 @@
 ###########
 
 # Pour exécuter le script, se placer dans le répertoire du projet et exécuter : 
-# ./scripts/merge_traitement.sh ./chemin/corpus_original/ ./chemin/corpus_annote/ ./chemin/output ./chemin/dico_segmentation.json ./chemin/regles_grew.tsv
+# ./scripts/merge_traitement.sh ./chemin/corpus_original/ ./chemin/corpus_annote_a_màj/ ./chemin/output ./chemin/dico_segmentation.json ./chemin/regles_grew.tsv
 
 ###########
 
@@ -38,7 +38,7 @@ python3 scripts/generation_regles_grew.py $tableau_regles $rules_path/regles_tww
 for ofile in ./temp_corpus_merge/* ; do
 	basename_merge=$(basename -s .conll $ofile)
 	transform=$(grew transform -grs regles/regles_tww.grs -strat "Onf(tuwari)" -i $ofile)
-    echo "$transform" > $output_path$basename_merge.conllu
+	echo "$transform" > $output_path$basename_merge.conllu
 done
 
 rm -r temp_corpus_*

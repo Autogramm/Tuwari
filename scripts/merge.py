@@ -3,16 +3,17 @@
 
 """
 Pour exécuter ce script, se placer dans le répertoire global du projet et exécuter : 
-python3 scripts/merge.py ./chemin/corpus_segm/ ./chemin/corpus_annote/ ./chemin/output/
+python3 scripts/merge.py ./chemin/corpus_segm_non_annote/ ./chemin/corpus_annote/ ./chemin/output/
 
 """
 
 
 import argparse
-from pprint import pprint
 from glob import glob
 import pyconll
 
+
+# Création d'un dictionnaire {fichier:{phrase:[[token_id, form, lemma, upos, xpos, feats, misc],[token_id, form, lemma, upos, xpos, feats, misc]]}}
 def crea_dico_gloss(corpus_gloss:str):
 	dico_gloss={}
 	sublist=[]
@@ -55,16 +56,18 @@ def merge(corpus_dep: str, dico_gloss: dict, output_path: str):
 				with open(output, "w") as wf:
 					for line in rf : 
 						line = line.strip()
+						# Écris les lignes d'informations telles quelles
 						if line.startswith("#"):
 							wf.write(line + "\n")
 							if "sent_id" in line:
 								sent_id=line.split(" = ")[1]
-								# print(sent_id, type(sent_id))
+						# Si ce ne sont pas des lignes vides ni des lignes d'informations
 						elif line != "\n" and line!="":
 							fields=line.split("\t")
 							head = fields[6]
 							deprel = fields[7]
 							deps = fields[8]
+							# Indique s'il n'y a pas le même nombre de token pour la même phrase dans les 2 fichiers (resegmentation)
 							if compt_tok >= len(dico_gloss[doc_id][sent_id]):
 								print(f"La phrase {sent_id} n'a pas le même nombre de token dans les deux fichiers")
 							if sent_id in dico_gloss[doc_id]:
