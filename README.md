@@ -9,7 +9,7 @@
 - regles : 
 	- `regles_tww.tsv` : un tableur contenant les règles de conversion des étiquettes du logiciel BaseX (?) vers les étiquettes UD
 	- `regles_segmentation.json` : un dictionnaire au format json contenant les règles de segmentation de certains morphèmes à redécouper
-	- `regles_tww.grs` : un fichier contenant les règles grew, généré automatiquement par le script `generation_regles.py` et par le script `traitement_fichiers.sh`
+	- `regles_tww.grs` : un fichier contenant les règles grew, généré automatiquement par le script `generation_regles_grew.py` et par le script `traitement_fichiers.sh`
 - scripts : 
 	- `resegmentation.py` : un script python resegmentant certains morphèmes
 	- `generation_regles_grew.py` : un script python convertissant un tableau de règles en règles grew
